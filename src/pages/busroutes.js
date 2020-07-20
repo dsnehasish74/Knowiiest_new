@@ -2,6 +2,7 @@ import React from 'react'
 import MediaPresent from '../component/mediapresent.js'
 import ReverseMedia from '../component/reversemedia.js'
 import TouristIntro from '../intro/touristintro.js'
+import {Link} from 'react-router-dom'
 import logo1 from "../images/Howrah.jpg"
 import logo2 from "../images/metro.jpg"
 import logo3 from "../images/sealdah.jpg"
@@ -12,7 +13,7 @@ function BusRoutes(){
     <div>  <TouristIntro intro="Details of BusRoutes to IIESTS"/>
     <nav aria-label="breadcrumb">
 <ol class="breadcrumb container">
-  <li class="breadcrumb-item"><a href="/">Home</a></li>
+  <li class="breadcrumb-item"><Link to="/">Home</Link></li>
   <li class="breadcrumb-item active" aria-current="page">BusRoutes</li>
 </ol>
 </nav>

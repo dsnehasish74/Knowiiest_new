@@ -6,13 +6,14 @@ import logo2 from "../images/Institute_canteen.png"
 import logo3 from "../images/ladies_canteen.png"
 import logo4 from "../images/student_canteen.png"
 import TouristIntro from '../intro/touristintro.js'
+import {Link} from 'react-router-dom'
 function Canteen(){
   return(
     <div>
     <TouristIntro intro="Details of Canteen..."/>
     <nav aria-label="breadcrumb">
 <ol class="breadcrumb container">
-  <li class="breadcrumb-item"><a href="/">Home</a></li>
+  <li class="breadcrumb-item"><Link to="/">Home</Link></li>
   <li class="breadcrumb-item active" aria-current="page">Canteen</li>
 </ol>
 </nav>

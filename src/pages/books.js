@@ -1,5 +1,6 @@
 import React from 'react'
 import TouristIntro from '../intro/touristintro.js'
+import {Link} from 'react-router-dom'
 
 function Books(){
   return(
@@ -7,7 +8,7 @@ function Books(){
       <TouristIntro intro="Important Books for semester exam"/>
       <nav aria-label="breadcrumb">
   <ol className="breadcrumb container">
-    <li className="breadcrumb-item"><a href="/">Home</a></li>
+    <li className="breadcrumb-item"><Link to="/">Home</Link></li>
     <li className="breadcrumb-item active" aria-current="page">Books</li>
   </ol>
 </nav>

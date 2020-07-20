@@ -1,14 +1,9 @@
 import React from 'react'
 
+
 function Grade(){
  return(
    <div className="container fade">
-   <nav aria-label="breadcrumb">
-<ol className="breadcrumb container">
- <li className="breadcrumb-item"><a href="/">Home</a></li>
- <li className="breadcrumb-item active" aria-current="page">Grade</li>
-</ol>
-</nav>
    <h3 className="heading-text3"> Grading System </h3>
    <hr/>
    <h5 className="heading-text">Evatluation of Theory Courses</h5>

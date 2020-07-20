@@ -3,6 +3,7 @@ import MediaPresent1 from '../component/mediapresent1.js'
 import ReverseMedia1 from '../component/reversemedia1.js'
 import TouristIntro from '../intro/touristintro.js'
 import logo2 from "../images/IMG_20200303_163715.jpg"
+import {Link} from 'react-router-dom'
 import logo4 from "../images/lesthes.jpg"
 import logo3 from "../images/cathersis.jpeg"
 import logo5 from "../images/euphony.jpg"
@@ -21,7 +22,7 @@ function Clubs(){
 
       <nav aria-label="breadcrumb">
   <ol class="breadcrumb container">
-    <li class="breadcrumb-item"><a href="/">Home</a></li>
+    <li class="breadcrumb-item"><Link to="/">Home</Link></li>
     <li class="breadcrumb-item active" aria-current="page">Societies</li>
   </ol>
 </nav>

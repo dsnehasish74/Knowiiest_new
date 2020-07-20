@@ -22,6 +22,7 @@ import logo17 from "../images/nivedita.jpg"
 import logo18 from "../images/pandyahall.jpg"
 import logo19 from "../images/slaterhall.jpg"
 import logo20 from "../images/gymnasium.jpg"
+import {Link} from 'react-router-dom'
 
 
 function Buildings(){
@@ -29,7 +30,7 @@ function Buildings(){
     <div>  <TouristIntro intro="Details of Canteen..."/>
     <nav aria-label="breadcrumb">
 <ol className="breadcrumb container">
-  <li className="breadcrumb-item"><a href="/">Home</a></li>
+  <li className="breadcrumb-item"><Link to="/">Home</Link></li>
   <li className="breadcrumb-item active" aria-current="page">Buildings</li>
 </ol>
 </nav>

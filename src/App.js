@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import {BrowserRouter,Switch,Route} from 'react-router-dom'
+import {HashRouter,Switch,Route,Redirect} from 'react-router-dom'
 import Navigation from "./layout/navbar.js"
 import Footer from "./layout/footer.js"
 import Home from './pages/home.js'
@@ -16,7 +16,7 @@ import Fest from './pages/fest.js'
 class App extends Component {
   render(){
   return (
-    <BrowserRouter>
+    <HashRouter>
     <div className="App">
     <Navigation/>
       <Switch>
@@ -30,10 +30,11 @@ class App extends Component {
         <Route  path="/clubs" component={Clubs}/>
         <Route  path="/tourist" component={Tourist}/>
         <Route  path="/fest" component={Fest}/>
+        <Redirect to="/"/>
       </Switch>
       <Footer/>
     </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 }
