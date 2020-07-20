@@ -21,9 +21,9 @@ function Clubs(){
       <TouristIntro intro="Societies of IIEST"/>
 
       <nav aria-label="breadcrumb">
-  <ol class="breadcrumb container">
-    <li class="breadcrumb-item"><Link to="/">Home</Link></li>
-    <li class="breadcrumb-item active" aria-current="page">Societies</li>
+  <ol className="breadcrumb container">
+    <li className="breadcrumb-item"><Link to="/">Home</Link></li>
+    <li className="breadcrumb-item active" aria-current="page">Societies</li>
   </ol>
 </nav>
     <div className="container">

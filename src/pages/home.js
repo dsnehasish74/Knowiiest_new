@@ -9,7 +9,7 @@ function Home(){
       <div className="intro">
         <div className="intro-text">
           <h2>Know IIESTS</h2>
-          <p>IIEST is not just an engineering instution , it's an emotion. The environment here has the magic to transform all your anxiety into happiness. It not only gives us the degree oriented education, but gives us the exposure to explore, and to be a human BEing.</p>
+          <p>IIEST is not just an engineering institution , it's an emotion. The environment here has the magic to transform all your anxiety into happiness. It not only gives us the degree oriented education, but gives us the exposure to explore, and to be a human BEing.</p>
         </div>
       </div>
       <nav className="container homenav">
@@ -29,10 +29,10 @@ function Home(){
         <div className="row mainbody">
           <div className="col-12 col-md-4 ">
           <div className="row">
-              <div className="col-12">
-                  <h3 className="heading-text-4">Important Links......</h3>
-                  <h6><a href="https://www.iiests.ac.in/" target="blank">Link to Official Site of IIESTS</a></h6><h6><a href="https://yournewabode.blogspot.com/" target="blank">Visit Our Blog</a></h6>
-              </div>
+          <div className="col-12 link-section">
+              <h3 className="heading-text-4">Important Links......</h3>
+              <h6><a href="https://www.iiests.ac.in/" target="blank">Link to Official Site of IIESTS</a></h6><h6><a href="https://yournewabode.blogspot.com/" target="blank">Visit Our Blog</a></h6>
+          </div>
               <div className="col-12">
                   <a href="https://yournewabode.blogspot.com/" target="blank"><img src={blog} className="blog" alt="blog"></img></a>
               </div>

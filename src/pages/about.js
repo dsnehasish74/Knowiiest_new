@@ -17,7 +17,7 @@ function About(){
         <div className="row">
           <div className="col-12 col-md-6 image-adjust"><img src={image3} className="mediaimage image" alt=" malay"></img>
           <div className="middle">
-    <div clasName="text">
+    <div className="text">
       <h6>Malay Gain</h6>
       <a href="https://www.facebook.com/gain.malay" target="blank"><i className="fa fa-facebook about-icon fa-lg"></i></a>
       <a href="https://www.linkedin.com/in/malay-gain-43466419a/" target="blank"><i className="fa fa-linkedin about-icon fa-lg"></i></a>
@@ -54,7 +54,7 @@ function About(){
           <div className="col-12 col-md-6 image-adjust"><img src={image5} alt=" sounak" className="mediaimage image"></img>
           <div className="middle">
           <div className="text">
-            <h6>Sounak majumder</h6>
+            <h6>Sounak Majumder</h6>
             <a href="https://www.facebook.com/profile.php?id=100008773576079" target="blank"><i className="fa fa-facebook about-icon fa-lg"></i></a>
             <a href="https://www.linkedin.com/in/sounak-majumder-45b183197/" target="blank"><i className="fa fa-linkedin about-icon fa-lg"></i></a>
             <a href=" mailto:Sounakmajumder472@gmail.com" target="blank"><i className="fa fa-envelope about-icon fa-lg"></i></a>
