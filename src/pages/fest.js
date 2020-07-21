@@ -2,7 +2,7 @@ import React from 'react'
 import MediaPresent from '../component/mediapresent.js'
 import ReverseMedia from '../component/reversemedia.js'
 import TouristIntro from '../intro/touristintro.js'
-import {Link} from 'react-router-dom'
+import Pagenav from './pagenav.js'
 import Initium from "../images/WhatsApp Image 2020-07-19 at 22.33.41 (1).jpeg"
 import instro from "../images/WhatsApp Image 2020-07-19 at 22.33.41.jpeg"
 import  metallum from "../images/WhatsApp Image 2020-07-19 at 22.33.42.jpeg"
@@ -20,12 +20,7 @@ function Fest(){
   return(
     <div>
       <TouristIntro intro="Details of Fests..."/>
-      <nav aria-label="breadcrumb">
-   <ol className="breadcrumb container">
-    <li className="breadcrumb-item"><Link to="/">Home</Link></li>
-    <li className="breadcrumb-item active" aria-current="page">Fest</li>
-   </ol>
-   </nav>
+      <Pagenav/>
     <div className="container fade">
     <br/>
     <MediaPresent src={rebeka}

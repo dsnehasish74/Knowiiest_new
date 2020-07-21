@@ -230,7 +230,7 @@ overflow-x: scroll;
   background: black url('./images/IMG_20200204_171241.jpg');
   background-size: cover;
   background-position: center;
-  min-height: 300px;
+  min-height: 400px;
 }
 /************************* app download Section**************************/
 .svgcon{
@@ -342,4 +342,8 @@ overflow-x: scroll;
 }
 .detail-image{
   width: 100%;
+  height:
+}
+.social{
+  text-align: center;
 }

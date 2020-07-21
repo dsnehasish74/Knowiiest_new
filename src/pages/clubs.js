@@ -2,8 +2,8 @@ import React from 'react'
 import MediaPresent1 from '../component/mediapresent1.js'
 import ReverseMedia1 from '../component/reversemedia1.js'
 import TouristIntro from '../intro/touristintro.js'
+import Pagenav from './pagenav.js'
 import logo2 from "../images/IMG_20200303_163715.jpg"
-import {Link} from 'react-router-dom'
 import logo4 from "../images/lesthes.jpg"
 import logo3 from "../images/cathersis.jpeg"
 import logo5 from "../images/euphony.jpg"
@@ -19,13 +19,7 @@ function Clubs(){
   return(
     <div>
       <TouristIntro intro="Societies of IIEST"/>
-
-      <nav aria-label="breadcrumb">
-  <ol className="breadcrumb container">
-    <li className="breadcrumb-item"><Link to="/">Home</Link></li>
-    <li className="breadcrumb-item active" aria-current="page">Societies</li>
-  </ol>
-</nav>
+    <Pagenav/>
     <div className="container">
     <MediaPresent1 src={logo10}
     heading="Robodarshan - the Robotics Society" body="ROBODARSHAN, the Robotics Society of IIEST Shibpur,

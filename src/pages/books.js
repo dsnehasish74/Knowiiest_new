@@ -1,17 +1,12 @@
 import React from 'react'
 import TouristIntro from '../intro/touristintro.js'
-import {Link} from 'react-router-dom'
+import Pagenav from './pagenav.js'
 
 function Books(){
   return(
     <div>
       <TouristIntro intro="Important Books for semester exam"/>
-      <nav aria-label="breadcrumb">
-  <ol className="breadcrumb container">
-    <li className="breadcrumb-item"><Link to="/">Home</Link></li>
-    <li className="breadcrumb-item active" aria-current="page">Books</li>
-  </ol>
-</nav>
+    <Pagenav/>
       <div className="container fade">
         <div className="dropdown">
         <button className="dropbtn">Mathematics</button>

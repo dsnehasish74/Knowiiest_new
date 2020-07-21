@@ -1,8 +1,12 @@
 import React from 'react'
-
+import Pagenav from './pagenav.js'
+import TouristIntro from '../intro/touristintro.js'
 
 function Grade(){
  return(
+   <div>
+   <TouristIntro intro="Grading System of IIESTS"/>
+   <Pagenav/>
    <div className="container fade">
    <h3 className="heading-text3"> Grading System </h3>
    <hr/>
@@ -67,7 +71,7 @@ normally be held a week before the end-semester theory examinations.
          </p>
         <hr/>
    </div>
-
+</div>
  );
 }
 

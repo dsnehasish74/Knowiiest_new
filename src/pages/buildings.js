@@ -2,6 +2,7 @@ import React from 'react'
 import MediaPresent from '../component/mediapresent.js'
 import ReverseMedia from '../component/reversemedia.js'
 import TouristIntro from '../intro/touristintro.js'
+import Pagenav from './pagenav.js'
 import logo1 from "../images/main-building.jpg"
 import logo2 from "../images/science_andtechnologybuilding.jpg"
 import logo4 from "../images/workshop.jpg"
@@ -22,20 +23,13 @@ import logo17 from "../images/nivedita.jpg"
 import logo18 from "../images/pandyahall.jpg"
 import logo19 from "../images/slaterhall.jpg"
 import logo20 from "../images/gymnasium.jpg"
-import {Link} from 'react-router-dom'
 
 
 function Buildings(){
   return(
     <div>  <TouristIntro intro="Buildings of IIESTS..."/>
-    <nav aria-label="breadcrumb">
-<ol className="breadcrumb container">
-  <li className="breadcrumb-item"><Link to="/">Home</Link></li>
-  <li className="breadcrumb-item active" aria-current="page">Buildings</li>
-</ol>
-</nav>
+  <Pagenav/>
     <div className="container fade">
-     <h3 className="heading-text3">Campus Buildings of IIEST</h3>
      <hr/>
      <MediaPresent src={logo1}
      heading="Main Academic Building"    body="The main academic complex is a four-storied building covering about 22000 square meters area that
