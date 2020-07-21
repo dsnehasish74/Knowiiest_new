@@ -27,7 +27,7 @@ import {Link} from 'react-router-dom'
 
 function Buildings(){
   return(
-    <div>  <TouristIntro intro="Details of Canteen..."/>
+    <div>  <TouristIntro intro="Buildings of IIESTS..."/>
     <nav aria-label="breadcrumb">
 <ol className="breadcrumb container">
   <li className="breadcrumb-item"><Link to="/">Home</Link></li>

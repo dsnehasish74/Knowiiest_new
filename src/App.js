@@ -12,6 +12,7 @@ import Grade from './pages/grade.js'
 import Clubs from './pages/clubs.js'
 import Tourist from './pages/tourist.js'
 import Fest from './pages/fest.js'
+import Details from './pages/details.js'
 
 class App extends Component {
   render(){
@@ -25,11 +26,12 @@ class App extends Component {
         <Route  path="/books" component={Books}/>
         <Route  path="/buildings" component={Buildings}/>
         <Route  path="/canteen" component={Canteen}/>
-        <Route  path="/busroutes" component={BusRoutes}/>
+        <Route  exact path="/busroutes" component={BusRoutes}/>
         <Route  path="/grade" component={Grade}/>
         <Route  path="/clubs" component={Clubs}/>
         <Route  path="/tourist" component={Tourist}/>
         <Route  path="/fest" component={Fest}/>
+        <Route path="/busroutes/:id" component={Details}></Route>
         <Redirect to="/"/>
       </Switch>
       <Footer/>

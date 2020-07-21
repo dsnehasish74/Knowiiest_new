@@ -6,7 +6,7 @@ function MediaPresent(props){
       <img src={props.src} className="mr-3 mediaimage" alt={props.alt}/>
       <div className="media-body">
       <h4 className="mt-0 heading-text">{props.heading}</h4>
-      <span className="d-none d-sm-block">{props.body}</span>
+      <span className="d-none d-sm-block details">{props.body}</span>
       </div>
       </div>
   );

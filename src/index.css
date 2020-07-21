@@ -337,3 +337,9 @@ overflow-x: scroll;
   padding-right: 0px;
   margin-right: 0px;
 }
+.details{
+  color: black;
+}
+.detail-image{
+  width: 100%;
+}
