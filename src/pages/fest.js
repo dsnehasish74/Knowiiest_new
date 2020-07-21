@@ -18,7 +18,7 @@ function Fest(){
       fests.map(route=>{
         if(route.id%2!==0)
         return(
-          <Link  to={"/fest/"+route.id} key={route.id}>
+          <Link  to={"/fest/"+route.id} key={route.id} style={{ textDecoration: 'none' }}>
           <MediaPresent
           id={route.id}
            src={route.src}
@@ -30,7 +30,7 @@ function Fest(){
         );
         else
         return(
-          <Link  to={"/fest/"+route.id} key={route.id}>
+          <Link  to={"/fest/"+route.id} key={route.id} style={{ textDecoration: 'none' }}>
           <ReverseMedia
           id={route.id}
           src={route.src}

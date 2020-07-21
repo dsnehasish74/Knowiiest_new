@@ -17,6 +17,7 @@ import Details from './pages/details.js'
 import Buildingdetails from './pages/buildingdetails.js'
 import TouristDetails from './pages/touristdetails.js'
 import Festsdetail from './pages/festdetail.js'
+import Canteendetails from './pages/canteendetail.js'
 
 class App extends Component {
   render(){
@@ -29,7 +30,7 @@ class App extends Component {
         <Route  path="/about" component={About}/>
         <Route  path="/books" component={Books}/>
         <Route  exact path="/buildings" component={Buildings}/>
-        <Route  path="/canteen" component={Canteen}/>
+        <Route  exact path="/canteen" component={Canteen}/>
         <Route  exact path="/busroutes" component={BusRoutes}/>
         <Route  path="/grade" component={Grade}/>
         <Route  path="/clubs" component={Clubs}/>
@@ -39,6 +40,7 @@ class App extends Component {
         <Route path="/buildings/:id" component={Buildingdetails}/>
         <Route path="/tourist/:id" component={TouristDetails}/>
         <Route path="/fest/:id" component={Festsdetail}/>
+        <Route path="/canteen/:id" component={Canteendetails}/>
         <Redirect to="/"/>
       </Switch>
       <Footer/>
