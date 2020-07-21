@@ -347,3 +347,20 @@ overflow-x: scroll;
 .social{
   text-align: center;
 }
+.blog-icon{
+  width:50px;
+  height: 50px;
+  position: fixed;
+  z-index: 1000;
+  bottom: 30px;
+  right: 10px;
+  color: floralwhite;
+  background-image: linear-gradient(to right, #97c74e, #2ab9a5 );
+  border-radius: 100%;
+  box-shadow: 5px 5px 15px -5px rgba(0 ,0,0,0.5);
+}
+.blog-icon>i{
+  position: absolute;
+  top: 40%;
+  left: 37%;
+}

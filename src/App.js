@@ -2,6 +2,7 @@ import React,{Component} from 'react';
 import {HashRouter,Switch,Route,Redirect} from 'react-router-dom'
 import Navigation from "./layout/navbar.js"
 import Footer from "./layout/footer.js"
+import Blogicon from "./layout/blogicon.js"
 import Home from './pages/home.js'
 import About from './pages/about.js'
 import Books from './pages/books.js'
@@ -35,6 +36,7 @@ class App extends Component {
         <Redirect to="/"/>
       </Switch>
       <Footer/>
+      <Blogicon/>
     </div>
     </HashRouter>
   );

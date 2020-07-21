@@ -20,7 +20,7 @@ function Clubs(){
     <div>
       <TouristIntro intro="Societies of IIEST"/>
     <Pagenav/>
-    <div className="container">
+    <div className="container fade">
     <MediaPresent1 src={logo10}
     heading="Robodarshan - the Robotics Society" body="ROBODARSHAN, the Robotics Society of IIEST Shibpur,
      is one of the most active student societies helping in inculcating among students the scientific temper &
