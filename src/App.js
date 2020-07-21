@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import {HashRouter,Switch,Route,Redirect} from 'react-router-dom'
+import {BrowserRouter,Switch,Route,Redirect} from 'react-router-dom'
 import Navigation from "./layout/navbar.js"
 import Footer from "./layout/footer.js"
 import Blogicon from "./layout/blogicon.js"
@@ -16,11 +16,12 @@ import Fest from './pages/fest.js'
 import Details from './pages/details.js'
 import Buildingdetails from './pages/buildingdetails.js'
 import TouristDetails from './pages/touristdetails.js'
+import Festsdetail from './pages/festdetail.js'
 
 class App extends Component {
   render(){
   return (
-    <HashRouter>
+    <BrowserRouter>
     <div className="App">
     <Navigation/>
       <Switch>
@@ -33,16 +34,17 @@ class App extends Component {
         <Route  path="/grade" component={Grade}/>
         <Route  path="/clubs" component={Clubs}/>
         <Route  exact path="/tourist" component={Tourist}/>
-        <Route  path="/fest" component={Fest}/>
-        <Route path="/busroutes/:id" component={Details}></Route>
-        <Route path="/buildings/:id" component={Buildingdetails}></Route>
-        <Route path="/tourist/:id" component={TouristDetails}></Route>
+        <Route  exact path="/fest" component={Fest}/>
+        <Route path="/busroutes/:id" component={Details}/>
+        <Route path="/buildings/:id" component={Buildingdetails}/>
+        <Route path="/tourist/:id" component={TouristDetails}/>
+        <Route path="/fest/:id" component={Festsdetail}/>
         <Redirect to="/"/>
       </Switch>
       <Footer/>
       <Blogicon/>
     </div>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 }
