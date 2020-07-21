@@ -29,7 +29,7 @@ function BusRoutes(){
           busroutes.map(route=>{
             if(route.id%2!==0)
             return(
-              <Link  to={`/busroutes/${route.id}`} key={route.id}>
+              <Link  to={"/busroutes/"+route.id} key={route.id}>
               <MediaPresent
               id={route.id}
                src={route.src}

@@ -1,8 +1,8 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import {busroutes} from '../shared/busroutes.js'
-function Details(props){
-  const route=busroutes[props.match.params.id]
+import {touristsdetails} from '../shared/tourists.js'
+function TouristDetails(props){
+  const route=touristsdetails[props.match.params.id]
   return(
     <div>
     {
@@ -13,7 +13,7 @@ function Details(props){
           <div aria-label="breadcrumb">
           <ol className="breadcrumb">
             <li className="breadcrumb-item"><Link to="/">Home</Link></li>
-            <li className="breadcrumb-item"><Link to="/busroutes">Busroutes</Link></li>
+            <li className="breadcrumb-item"><Link to="/tourist">tourists</Link></li>
             <li className="breadcrumb-item active" aria-current="page">{route.heading}</li>
           </ol>
           </div>
@@ -27,4 +27,4 @@ function Details(props){
 
 }
 
-export default Details;
+export default TouristDetails;
