@@ -16,7 +16,7 @@ function Fest(){
     <br/>
     {
       fests.map(route=>{
-        if(route.id%2!==0)
+        if(route.id%2===0)
         return(
           <Link  to={"/fest/"+route.id} key={route.id} style={{ textDecoration: 'none' }}>
           <MediaPresent

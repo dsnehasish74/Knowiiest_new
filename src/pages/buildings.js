@@ -16,7 +16,7 @@ function Buildings(){
 
      {
        buildings.map(route=>{
-         if(route.id%2!==0)
+         if(route.id%2===0)
          return(
            <Link  to={"/buildings/"+route.id} key={route.id} style={{ textDecoration: 'none' }}>
            <MediaPresent

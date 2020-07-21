@@ -14,7 +14,7 @@ function Tourist(){
     <br/>
     {
       touristsdetails.map(route=>{
-        if(route.id%2!==0)
+        if(route.id%2===0)
         return(
           <Link  to={"/tourist/"+route.id} key={route.id} style={{ textDecoration: 'none' }}>
           <MediaPresent
