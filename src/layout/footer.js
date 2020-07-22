@@ -11,6 +11,7 @@ function Footer(){
               <li><Link to="/">Home</Link></li>
               <li><Link to="/about">About us</Link></li>
               <li><a href="https://yournewabode.blogspot.com/" target="blank">Blog</a></li>
+              <li><a href="https://www.collegepravesh.com/cutoff/iiest-shibpur-cutoff-2019/" target="blank">Check cutoff for IIESTS here</a></li>
             </ul>
           </div>
           <div className="col-6 col-md-4">

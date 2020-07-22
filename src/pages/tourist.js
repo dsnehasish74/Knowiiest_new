@@ -11,6 +11,9 @@ function Tourist(){
     <TouristIntro intro="Tourist spots near IIEST"/>
   <Pagenav/>
     <div className="container fade">
+    <div className="alert alert-primary d-block d-sm-none" role="alert">
+  click on the pictures to see details
+</div>
     <br/>
     {
       touristsdetails.map(route=>{

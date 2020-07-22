@@ -7,7 +7,11 @@ function MediaPresent1(props){
       <div className="media-body">
       <h4 className="mt-0 heading-text">{props.heading}</h4>
       <span className="d-none d-sm-block">{props.body}</span>
-  <br/><a href={props.add}><button className="linkclub">{props.link}</button></a>
+  <br/>
+
+      <div className="link-conatin">
+      <a href={props.add} target="blank"><div className="cont"><i className="fa fa-facebook fa-lg facebook"></i></div></a>
+      </div>
       </div>
       </div>
   );

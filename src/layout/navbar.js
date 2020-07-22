@@ -9,6 +9,7 @@ function Navigation(props){
         <div className="logo"><Link to="/"><img src={logo} alt="Know IIESTS Logo" className="brandlogo"></img></Link></div>
         <div className="navLink">
         <NavLink className="link" to="/about">Aboutus</NavLink>
+        <a href="https://yournewabode.blogspot.com/">blog</a>
       </div>
       </div>
     </nav>

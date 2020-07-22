@@ -12,6 +12,9 @@ function Buildings(){
     <div>  <TouristIntro intro="Buildings of IIESTS..."/>
   <Pagenav/>
     <div className="container fade">
+    <div className="alert alert-primary d-block d-sm-none" role="alert">
+  click on the pictures to see details
+</div>
      <hr/>
 
      {

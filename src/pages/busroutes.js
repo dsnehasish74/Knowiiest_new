@@ -11,6 +11,9 @@ function BusRoutes(){
     <div>  <TouristIntro intro="Details of BusRoutes to IIESTS"/>
     <Pagenav/>
   	<div className="container fade">
+    <div className="alert alert-primary d-block d-sm-none" role="alert">
+  click on the pictures to see details
+</div>
     <h3 className="heading-text2">Bus routes to important places</h3>
     <hr/>
     <div>

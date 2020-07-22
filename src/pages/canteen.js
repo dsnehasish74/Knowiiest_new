@@ -11,6 +11,9 @@ function Canteen(){
     <TouristIntro intro="Details of Canteen..."/>
   <Pagenav/>
     <div className="container fade">
+    <div className="alert alert-primary d-block d-sm-none" role="alert">
+  click on the pictures to see details
+</div>
      <br/>
      {
        canteen.map(route=>{

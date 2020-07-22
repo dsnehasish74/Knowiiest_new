@@ -8,6 +8,9 @@ function Books(){
       <TouristIntro intro="Important Books for semester exam"/>
     <Pagenav/>
       <div className="container fade">
+      <div className="alert alert-primary" role="alert">
+        books of respective semesters will be uploaded soon..
+      </div>
         <div className="dropdown">
         <button className="dropbtn">Mathematics</button>
         <div className="drop">
