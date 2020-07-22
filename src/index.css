@@ -127,6 +127,7 @@ nav{
 
 .type-body{
   background: #333;
+  width: 100%;
   padding-top: 3em;
   padding-bottom: 2em;
   display: flex;
@@ -146,6 +147,7 @@ nav{
     typing 5.5s steps(30, end),
     blink-caret .5s step-end infinite;
 }
+
 
 /* The typing effect */
 @keyframes typing {
@@ -199,6 +201,12 @@ overflow-x: scroll;
 }
 .ullink{
   list-style: none;
+}
+.ullink>li{
+  padding: 0px 12px;
+}
+.ullink>li:first-child{
+  padding-left: 0px;
 }
 .homebody{
   margin-top: 20px;
@@ -313,7 +321,9 @@ overflow-x: scroll;
   .slideshow{
     margin-top: 20px;
   }
-
+  .type-body{
+    overflow-x: scroll;
+  }
 }
 .blog{
   width: 100%;
