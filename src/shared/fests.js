@@ -100,8 +100,8 @@ id:3,
 {
   id:12,
   src:avi,
-  heading:"AIR-O-TRIVIA" ,
-  body:"Aeromodelling Club, IIEST Shibpur : The budding group of Aerospace Engineers from one of the oldest and finest institutes in our country organizes the Air-O-Trivia. Their vision is to foster enthusiasm and encourage people associated and interested, in the field of aeromodelling.",
+  heading:"ABHIYANTRIX" ,
+  body:"Abhiyantrix is  the annual fest of the Department of Aerospace Engineering and Applied Mechanics.ABHIYANTRIX is a fest uniquely centered around Space and Technology and is the first of its kind in Kolkata. The fest, in its maiden voyage, intends to provide a harbor for enthusiasts to meet and exchange ideas and innovations contributing to the ever-expanding field of Space and Technology. The fest wants to provide a platform for individuals of all the fields as well to share their understanding and give  innovative perceptions and ideas in this field. This event will bear fruit to not only expand and enhance enthusiasm but test the participants' knowledge and mettle.",
   alt:"AIR-O-TRIVIA"
 }
 ]
