@@ -6,7 +6,7 @@ export const canteen=[
   {
     id:0,
     src:logo1,
-    heading:"Cafe In",
+    heading:"Cafe Inn",
     body:"This canteen is situated beside the eight-storeyed Science and and technology building.Mostly all kinds of foods are available here.",
     alt:"Cafein picture"
   },
