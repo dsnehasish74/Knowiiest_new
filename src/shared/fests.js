@@ -9,7 +9,8 @@ import aidutak from "../images/WhatsApp Image 2020-07-19 at 22.33.45.jpeg"
 import gyandhara from '../images/WhatsApp Image 2020-07-19 at 23.06.48.jpeg'
 import impetus from '../images/WhatsApp Image 2020-07-19 at 23.06.49.jpeg'
 import avi from '../images/WhatsApp Image 2020-07-19 at 23.21.19.jpeg'
-import logo from '../images/WhatsApp Image 2020-07-20 at 00.14.14.jpeg'
+import anuranon from '../images/anuranon.jpg'
+import electro from '../images/electro.jfif'
 
 export const fests=[
 
@@ -43,7 +44,7 @@ id:3,
 },
 {
   id:4,
-  src:logo,
+  src:anuranon,
   heading:"ANURANON" ,
   body:"Badal Sircar's legend still lives on in the college in the form of an active Dramatics society - the Les Thespians who organise Anuranon every year, which is usually a colorful culmination of myriad emotions, expressions and captures the rich heritage of this institute. ",
   alt:"ANURANON"
@@ -78,7 +79,7 @@ id:3,
 },
   {
   id:9,
-  src:logo,
+  src:electro,
   heading:"ELECTROQUIP" ,
   body:"Electroquip is the first competitive event of EES calendar. This is a great event oganized by the Electrical Engineering Society, it comprises of 2 rounds. A team of maximum 3 members is required to participate in this event.The first round is a MCQ based examination to test the overall understanding of the subject. Top 10 teams are selected for the final round.  which consists of a circuit making test. Top 3 teams are awarded with cash prizes and gifts at the end of the event. ",
   alt:"ELECTROQUIP"
