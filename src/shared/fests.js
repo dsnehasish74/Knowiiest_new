@@ -93,7 +93,7 @@ id:3,
   body:"Entrepreneurship Development Cell, IIEST Shibpur organises SCINTILLATIONS,E-Summit of IIEST Shibpur . The E-Summit intends to facilitate the development of a healthy ecosystem which in turn can boost essential factors like Innovation and New Business Idea, Financing and Sourcing Resources, Marketing and Promotion, Managing Growth and Succession Planning among others. The summit  hosts a number of workshops and discussion opportunities for the participants to share and learn about the new age challenges of doing business.",
   alt:"SCINTILLATIONS"
  
-}
+},
 {
   id:11,
   src:impetus,
