@@ -177,7 +177,7 @@ nav{
   position: absolute;
   top: 200px;
   left: 10%;
-  max-width: 300px;
+  max-width: 600px;
   transform: translateX(-200px);
   animation: 1.2s slideIn ease-in-out forwards 1s;
   z-index: 10;
