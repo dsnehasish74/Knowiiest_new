@@ -115,7 +115,7 @@ export const buildings=[
     id:13,
     src:logo11,
     heading:"B.Sen Hall(Hostel 9)"  ,
-    body:"This Hall is the single seated hall of residence for the boys. It accommodates the 3rd and 4th year ug students.",
+    body:"This Hall is the single seated hall of residence for the boys. It accommodates the first year ug students.",
     alt:"Seal Hall"
 },
 
