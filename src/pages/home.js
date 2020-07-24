@@ -47,6 +47,18 @@ function Home(){
               </div>
             </div>
         </div>
+  <div className="container">
+        <hr></hr>
+          <div className="row">
+              <div className="col-10">
+                    <h6>*An application for general students living in BE-GARDEN, BE-College area*</h6>
+                    <p>Sincerely with the BE-Colege closed for a long time the vendors of the colleges small shop are in dire straits.In such a situation, the book-notebook-pen shop(cheapstore) has taken the initiative to deloiver all the items like notebooks and pens to the home delivery facility .Content will be delivered to BE College,BE GARDEN sand surrounding areas on the basis of phone oeders contact no. 82440424726</p>
+              </div>
+              <div className="col-2 mt-5">
+                  <a role="button" class=" btn btn-success" href="tel:+918240424726"><i className="fa fa-phone fa-lg"></i></a>
+              </div>
+          </div>
+        </div>
     </div>
 
   );
