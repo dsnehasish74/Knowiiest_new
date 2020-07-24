@@ -20,7 +20,7 @@ export const canteen=[
   {
     id:2,
     src:logo3,
-    heading:"Ladies Canteen" ,
+    heading:"University Canteen" ,
     body:"This canteen is situated beside the Netaji Bhaban and Lords playground.This canteen is run by the ladies but not only for the ladies, Any student, faculty or staff can use this canteen.",
     alt:"Ladies_canteen picture"
   },
