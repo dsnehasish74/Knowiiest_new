@@ -9,7 +9,7 @@ function Home(){
       <div className="intro">
         <div className="intro-text">
           <h2>Know IIESTS</h2>
-          <p>IIEST is a premier engineering Institute (NIT) of india with <a href="https://www.nirfindia.org/2020/EngineeringRanking.html" style={{color:'white'}}>NIRF rank of 21 under all engineering institutions of india </a> and 6 under architecture Institutes.IIEST is not just an engineering institution , it's an emotion. The environment here has the magic to transform all your anxiety into happiness. It not only gives us the degree oriented education, but gives us the exposure to explore, and to be a human BEing.</p>
+          <p>IIEST is a premiere engineering Institute (NIT) of india with <a href="https://www.nirfindia.org/2020/EngineeringRanking.html" style={{color:'white'}}>NIRF rank of 21 among all engineering institutions of india </a> and 6 among architecture Institutes.IIEST is not just an engineering institution , it's an emotion. The environment here has the magic to transform all your anxiety into happiness. It not only gives us the degree oriented education, but gives us the exposure to explore, and to be a human BEing.</p>
         </div>
       </div>
       <Pagenav/>
