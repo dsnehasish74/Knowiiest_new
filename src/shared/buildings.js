@@ -24,21 +24,21 @@ export const buildings=[
     id:0,
     src:logo1,
     heading:"Main Academic Building",
-    body:"The main academic complex is a four-storied building covering about 22000 square meters area that accommodates most of the engineering departments, Department of Human Resources Management, Office of the Dean (Academic Affairs) and Office of Controller of Examinations.",
+    body:"The main academic complex is a four-storeyed building covering about 22000 square meters area that accommodates most of the Engineering departments, department of Human Resources Management, office of the Dean (Academic affairs) and office of Controller of examinations.",
     alt:"Main buiding"
   },
   {
     id:1,
     src:logo2,
     heading:"Science and Technology Building",
-    body:"The newly constructed eight-storied Science and Technology building with 14400 square metres area accommodates some of the existing engineering departments, science and management departments, and various centres and schools. Office of the Vice-Chancellor, Offices of the Deans, Registrar, and other financial and administrative offices are also located in this building. Annexes to this building are now being constructed to accommodate future departments, schools, centres and offices.",
+    body:"The newly constructed eight-storeyed Science and Technology building with 14400 square metres area accommodates some of the existing Engineering departments, Science and Management departments, and various centres and schools. Office of the Vice-Chancellor, Offices of the Deans, Registrar, and other financial and administrative offices are also located in this building. Annexes to this building are now being constructed to accommodate future departments, schools, centres and offices.",
     alt:"S and T logo"
   },
   {
     id:2,
     src:logo3,
     heading:"Ramanujan Central Library" ,
-    body:"The Library was started in April 1857 with a capital expenditure of Rs.5,000/-. The Institute library has the distinction of being one of the oldest and the largest resourceful technical library in the south-east Asia. The total area of the library is around 3,000 square meters. The library not only caters to the basic information needs of faculty members, research scholars and students of     thisInstitutebut also provides information services to research workers of neighbouring universities and research institutes. The mission of the Central Library is to facilitate creation of new knowledge through acquisition, organization and dissemination of knowledge resources and providing for value added services.",
+    body:"The Library was started in April,1857 with a capital expenditure of Rs.5,000/-. The Institute library has the distinction of being one of the oldest and the largest resourceful technical library in the south-east Asia. The total area of the library is around 3,000 square meters. The library not only caters to the basic information needs of faculty members, research scholars and students of this Institute but also provides information services to research workers of neighbouring universities and research institutes. The mission of the Central Library is to facilitate creation of new knowledge through acquisition, organization and dissemination of knowledge resources and providing for value added services.",
     alt:"library"
   },
   {
