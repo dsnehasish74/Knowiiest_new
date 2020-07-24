@@ -52,7 +52,7 @@ function Home(){
           <div className="row">
               <div className="col-10">
                     <h6>*An application for general students living in BE-GARDEN, BE-College area*</h6>
-                    <p>Sincerely with the BE-Colege closed for a long time the vendors of the colleges small shop are in dire straits.In such a situation, the book-notebook-pen shop(cheapstore) has taken the initiative to deleiver all the items like notebooks and pens to the home delivery facility .Content will be delivered to BE College,BE GARDEN sand surrounding areas on the basis of phone orders contact no. 8240424726</p>
+                    <p>Sincerely with the BE-Colege closed for a long time the vendors of the colleges small shop are in dire straits.In such a situation, the book-notebook-pen shop(cheapstore) has taken the initiative to deliver all the items like notebooks and pens to the home delivery facility .Content will be delivered to BE College,BE GARDEN sand surrounding areas on the basis of phone orders contact no. 8240424726</p>
               </div>
               <div className="col-2 mt-5">
                   <a role="button" className=" btn btn-success" href="tel:+918240424726"><i className="fa fa-phone fa-lg"></i></a>
