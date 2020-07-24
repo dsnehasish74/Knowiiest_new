@@ -9,7 +9,7 @@ import logo8 from "../images/senguptahall.jpg"
 import logo9 from "../images/senhall.jpg"
 import logo10 from "../images/macdonald.jpg"
 import logo11 from "../images/hostel10.jpg"
-import logo12 from "../images/hostel8.jpg"
+import logo12 from "../images/hostel8.jfif"
 import logo13 from "../images/aksealhall.jpg"
 import logo14 from "../images/hostel11.jpg"
 import logo15 from "../images/hostel15.jfif"
@@ -18,6 +18,7 @@ import logo17 from "../images/nivedita.jpg"
 import logo18 from "../images/pandyahall.jpg"
 import logo19 from "../images/slaterhall.jpg"
 import logo20 from "../images/gymnasium.jpg"
+import logo21 from "../images/hostel14.jpg"
 
 export const buildings=[
   {
@@ -134,29 +135,36 @@ export const buildings=[
     body:"This is a Second Year hostel for Boys. The ambience is good. The food too is good, and breakfast,lunch and dinner are timely provided. This hostel is situated in the best location of campus. It has security camera... Washing machine.. Good mess staff.. Security is too tight.. has a badminton court, a volleyball court, a fresh front view of garden and a great backyard due to Neem lake. ",
     alt:"hostel11"
 },
+ {
+  id:16,
+  src:logo21,
+  heading:"Hostel 14",
+  body:"It is a hostel for undergraduate students of IIEST, Shibpur . It is a fantastic hostel with the availability of all necessary facilities including good mess food. ",
+  alt:"hostel14"
+ },
 
   {
-    id:16,
+    id:17,
     src:logo15,
     heading:"Hostel 15" ,
     body:"This is a Boys hostel. The facilities available are: 1. Free Unlimited WiFi access available, 2. T.V is there in the common room, 3. Suffiecient Bathrooms in each & every floor, 4. Water purifier is there for drinking water, 5. Dust Bin in each & every floor, 6.Badminton Court in the Front Yard, 7. Beautiful Garden in the Front Yard, 8. Indoor games are available (carrom). People here has Good experience and the Food is really good.",
     alt:"hostel15"
   },
     {
-    id:17,
+    id:18,
     src:logo16,
     heading:"Lt Williams Halls of Residence",
     body:"Lt Williams Halls of Residence is a ladies hostel for PG and Research Scholars. It's beautifull place to stay with awesome food, 24 hours security and all necessary facilities. Address : 6B, Indian Institute of Engineering Science and Technology, Shalimar, Howrah, West Bengal. The rooms accomodate maximum 2 and cleaning is done everyday. Foods are avilable even on vacation like Durga Pooja, Summer vacation. Beautiful view of the River Ganga from the Hostel and cool breeze comes in. ", alt:"LtWilliams"
   },
 {
-    id:18,
+    id:19,
     src:logo17,
     heading:"Sister Nivedita Ladies Hostel" ,
     body:"First year girls hostel for the students of IIEST, SHIBPUR. The hostel with 3 floors has newly renovated interior.The atmosphere is amazing. The rooms are occupied by four girls.Each floor have almost 12 rooms and 2 washrooms and also a common room. There is a mess and a common room in ground floor. 24 hours security guard is available.",
     alt:"Nivedita"
   },
   {
-    id:19,
+    id:20,
     src:logo18,
     heading:"Pandya Hall (Girls Hostel)"  ,
     body:"Hostel of 2, 3, 4 years undergraduate girls and also some post graduate students live here. The hostel is more close from gate no 1 than gate no 2.The hall organises sports event every year. The place is surrounded by institute hospital,guest house,boxing ring, basketball court. It is in front of clock tower and vidisha lake. The food offered here is awesome. ",
