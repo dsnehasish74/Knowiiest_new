@@ -59,7 +59,7 @@ export const buildings=[
     id:5,
     src:logo20,
     heading:"Gymnasium" ,
-    body:"The centruy old heritage athletic club building houses the gymnasium. GAABESU, our alumni association, recently renovated the building, bought new equipments, and inaugurated the upgraded gymnasium in August 2014.",
+    body:"The century old heritage athletic club building houses the gymnasium. GAABESU, our alumni association, recently renovated the building, bought new equipments, and inaugurated the upgraded gymnasium in August 2014.",
     alt:"Gym"
   },
   {
@@ -108,7 +108,7 @@ export const buildings=[
     id:12,
     src:logo12,
     heading:"D Banerjee Hall(Hostel 8)"  ,
-     body:"This is a First Year Hostel. In this hostel, there are two game rooms one is for table tennis and other for carrom and news paper. There is small garden in front of hostel. Every facilities are available for students here. It is very Affordable and Secured Hostel. The IIEST Shibpur is so well famous for its 'greenery' campus and if you are not a hostelite then you are going to miss something very very important. The weather ispretty nice with the Ganga in half a kilometer of aerial distance. You can constantly feel the breezes coming in. Spring is one of the best times here.You have common rooms with carrom boards and TT. You also have access to newspapers in almost about 3 languages, television and radio. Inter-hostel/hall sports are organised comprising cricket, football, table tennis, badminton, carrom etc. Festivals are celebrated with much fervour. Be it Holi, Diwali, Christmas, Pongal, Onam, Saraswati Puja or Durga Puja; you will find your hostel illuminated and brimming with energy.",
+     body:"This is a First Year Hostel. In this hostel, there are two games rooms,one is for table tennis and other for carrom and news paper. There is small garden in front of hostel. Every facility is available for students here. It is very secured hostel. The IIEST,Shibpur is so well famous for its green campus and if you are not a hostelite then you are going to miss something very very important. The weather is pretty nice with the Ganga in half a kilometer of aerial distance. You can constantly feel the breeze coming in. Spring is one of the best times here.You have common rooms with carrom boards and TT. You also have access to newspapers in almost about 3 languages, television and radio. Inter-hostel/hall sports are organised comprising cricket, football, table tennis, badminton, carrom etc. Festivals are celebrated with much fervour. Be it Holi, Diwali, Christmas, Pongal, Onam, Saraswati Puja or Durga Puja; you will find your hostel illuminated and brimming with energy.",
     alt:"Hostel 8"
   },
     {
