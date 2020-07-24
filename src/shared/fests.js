@@ -10,7 +10,9 @@ import gyandhara from '../images/WhatsApp Image 2020-07-19 at 23.06.48.jpeg'
 import impetus from '../images/WhatsApp Image 2020-07-19 at 23.06.49.jpeg'
 import avi from '../images/WhatsApp Image 2020-07-19 at 23.21.19.jpeg'
 import anuranon from '../images/anuranon.jpg'
-import electro from '../images/electro.jfif'
+import sphuran from '../images/sphuran.jpg'
+import esummit from '../images/e-summit.jfif'
+import Satrang from '../images/Satrang.jpg'
 
 export const fests=[
 
@@ -79,30 +81,45 @@ id:3,
 },
   {
   id:9,
-  src:electro,
-  heading:"ELECTROQUIP" ,
-  body:"Electroquip is the first competitive event of EES calendar. This is a great event oganized by the Electrical Engineering Society, it comprises of 2 rounds. A team of maximum 3 members is required to participate in this event.The first round is a MCQ based examination to test the overall understanding of the subject. Top 10 teams are selected for the final round.  which consists of a circuit making test. Top 3 teams are awarded with cash prizes and gifts at the end of the event. ",
-  alt:"ELECTROQUIP"
+  src:sphuran,
+  heading:"SPHURAN" ,
+  body:"The Electrical Engineers' Society, IIEST Shibpur is a link between students and faculty of ELECTRICAL ENGINEERING DEPARTMENT .This society presents SPHURAN, a fest of one of its kind, which aims at providing a firm platform to explore interests and extensive exposure to students participating from various colleges. SPHURAN combines mind-stirring and creative events ranging from quiz competitions to coding competitions.",
+  alt:"SPHURAN"
 },
-{
+ {
   id:10,
+  src:esummit,
+  heading:"SCINTILLATIONS",
+  body:"Entrepreneurship Development Cell, IIEST Shibpur organises SCINTILLATIONS,E-Summit of IIEST Shibpur . The E-Summit intends to facilitate the development of a healthy ecosystem which in turn can boost essential factors like Innovation and New Business Idea, Financing and Sourcing Resources, Marketing and Promotion, Managing Growth and Succession Planning among others. The summit  hosts a number of workshops and discussion opportunities for the participants to share and learn about the new age challenges of doing business.",
+  alt:"SCINTILLATIONS"
+ 
+}
+{
+  id:11,
   src:impetus,
   heading:"IMPETUS",
   body:"The Society of Mechanical Engineering, IIEST Shibpur brings to you a platform to showcase your talent,a podium to display your skills and earn your reward. Presenting the second edition of IMPETUS, an all-round competition that will test your academics and practical skills, as well as your aptitude. So, what are you waiting for? Get yourself registered in this quest for excellence. ",
   alt:"IMPETUS"
 },
 {
-  id:11,
+  id:12,
   src:aidutak,
   heading:"VAIDYUTAK",
   body:"Vaidyutak 2019 is the very #first Annual Technical Fest of the Department of Electronics & Telecommunication Engineering of IIEST Shibpur. With a plethora of events ranging from Circuit Designing, Technical Paper presentation to Quiz, Industrial Meet, Alumni Meet and so on, it promises to act as the platform for all the Novus Tech enthusiasts of the country to showcase their technical abilities, inquisitiveness and their search for supremacy in this field.",
   alt:"VAIDYUTAK"
 },
 {
-  id:12,
+  id:13,
   src:avi,
   heading:"ABHIYANTRIX" ,
   body:"Abhiyantrix is  the annual fest of the Department of Aerospace Engineering and Applied Mechanics.ABHIYANTRIX is a fest uniquely centered around Space and Technology and is the first of its kind in Kolkata. The fest, in its maiden voyage, intends to provide a harbor for enthusiasts to meet and exchange ideas and innovations contributing to the ever-expanding field of Space and Technology. The fest wants to provide a platform for individuals of all the fields as well to share their understanding and give  innovative perceptions and ideas in this field. This event will bear fruit to not only expand and enhance enthusiasm but test the participants' knowledge and mettle.",
   alt:"AIR-O-TRIVIA"
-}
+},
+ {
+  id:14,
+  src:Satrang,
+  heading:"SATRANG" ,
+  body:" To bring together the creative societies of IIEST Shibpur, to conduct a single fest on a much larger scale where everyone gets a platform to showcase their talent the seven of the Cultural Clubs of IIEST Shibpur presents SATRANG - a week long cultural extravaganza.SATRANG  comprises of a multitude of competitions, workshops, exhibitions and events on various art forms such as dance, drama, debating, literary expression to drawing, sketching , painting, photography and videography.SATRANG-2020 was the first edition of this fest .",
+  alt:"SATRANG"
+ }
 ]
