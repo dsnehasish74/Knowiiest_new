@@ -38,7 +38,7 @@ export const buildings=[
     id:2,
     src:logo3,
     heading:"Ramanujan Central Library" ,
-    body:"The Library was started in April 1857 with a capital expenditure of Rs.5,000/-. The Institute library has the distinction of being one of the oldest and the largest resourceful technical library in the south-east Asia. The total area of the library is around 3,000 square meters and it is open from 9.00 A.M. to 12.00 A.M. The library not only caters to the basic information needs of faculty members, research scholars and students of     thisInstitutebut also provides information services to research workers of neighbouring universities and research institutes. The mission of the Central Library is to facilitate creation of new knowledge through acquisition, organization and dissemination of knowledge resources and providing for value added services.",
+    body:"The Library was started in April 1857 with a capital expenditure of Rs.5,000/-. The Institute library has the distinction of being one of the oldest and the largest resourceful technical library in the south-east Asia. The total area of the library is around 3,000 square meters. The library not only caters to the basic information needs of faculty members, research scholars and students of     thisInstitutebut also provides information services to research workers of neighbouring universities and research institutes. The mission of the Central Library is to facilitate creation of new knowledge through acquisition, organization and dissemination of knowledge resources and providing for value added services.",
     alt:"library"
   },
   {
@@ -94,7 +94,7 @@ export const buildings=[
     id:10,
      src:logo9,
     heading:"Sen Hall"   ,
-     body:"Sen Hall is the single seated hall of residence for the boys. It accommodates the 3rd and 4th year ug students. Each room consists of atubelight, a fan, a bed, a table, a chair and an almirah. Arrangements for playing indoor games like table tennis and carom board is available. Sen hall has it's own garden where you can play badminton or short-pitch cricket. Mess food is good. 2 to 3 times biryani happens in a month. Arrangements for a common tv,3–4 types of newspapers in english and bengali, several types of magazines, employment news are also there. Each year Freshers party for 3rd year and Farewell party for 4th year is held.",
+     body:"Sen Hall is the single seated hall of residence for the boys. It accommodates the 3rd and 4th year ug students. Each room consists of atubelight, a fan, a bed, a table, a chair and an almirah. Arrangements for playing indoor games like table tennis and carom board is available. Sen hall has it's own garden where you can play badminton or short-pitch cricket. Mess food is good. Biriyani is served 2 to 3 times in a month. Arrangements for a common tv,3–4 types of newspapers in english and bengali, several types of magazines, employment news are also there. Each year Freshers party for 3rd year and Farewell party for 4th year is held.",
     alt:"Sen Hall"
   },
   {
@@ -123,7 +123,7 @@ export const buildings=[
     id:14,
     src:logo13,
     heading:"A.K.Seal Hall(Hostel 10)" ,
-    body:"This is a First Year Hostel for undergrad course at IIEST Shibpur. Hostel facilities are good. Staffs are also good.They served great foods in the hostel Centeen. Has a common room which contains TV, sitting and carrom board. Every floor contains two WiFi router which speeds upto almost 10-11MBps. 24X7 gaurding is available. Study room is available. Washing machine is also there.",
+    body:"This is a First Year Hostel. Hostel facilities are good. Staffs are also good.They served great foods in the hostel Centeen. Has a common room which contains TV, sitting and carrom board. Every floor contains two WiFi router which speeds upto almost 10-11MBps. 24X7 gaurding is available. Study room is available. Washing machine is also there.",
     alt:"hostel10"
   },
 
