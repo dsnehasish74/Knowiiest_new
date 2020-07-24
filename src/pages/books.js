@@ -1,8 +1,11 @@
-import React from 'react'
+import React,{useState} from 'react'
 import TouristIntro from '../intro/touristintro.js'
 import Pagenav from './pagenav.js'
+import {books} from '../shared/books.js'
 
 function Books(){
+  const [count, setCount] = useState(0);
+  let course_book=books[count];
   return(
     <div>
       <TouristIntro intro="Important Books for semester exam"/>
@@ -11,53 +14,46 @@ function Books(){
       <div className="alert alert-primary" role="alert">
         books of respective semesters will be uploaded soon..
       </div>
-        <div className="dropdown">
-        <button className="dropbtn">Mathematics</button>
-        <div className="drop">
-          <a href="https://drive.google.com/file/d/1SCOmFGDqBL3jvVcx3dEebe0bHlwmZkBJ/view?usp=sharing" target="blank"><button className="btnstyle">Mathematics by Dr. Guruprasad Samanta</button></a>
-          <a href="https://drive.google.com/file/d/186aaegRK0kN3KdmoOxyL0MTyXh47Ezqa/view?usp=sharing" target="blank"><button className="btnstyle">Diiferantial Calculas by BC Das,BN Mukherjee</button></a>
-          <a href="https://drive.google.com/file/d/1x-FXtMM87Pe3u1CZ9cHACPfMYSc-RMaE/view?usp=sharing" target="blank"><button className="btnstyle">Integral and Differantial Calculus</button></a>
+      <div className="year">
+        <button>1st year</button>
+        <button onClick={() => setCount(1)} disabled={count==0}>CST </button>
+        <button onClick={() => setCount(2)}  disabled={count==0}>IT </button>
+        <button onClick={() => setCount(3)}  disabled={count==0}>ME</button>
+        <button onClick={() => setCount(4)}  disabled={count==0}>Civil </button>
+        <button onClick={() => setCount(5)}  disabled={count==0}>EE </button>
+        <button onClick={() => setCount(5)} disabled={count==0}>ETC</button>
+        <button onClick={() => setCount(6)}  disabled={count==0}>Aerospace</button>
+        <button onClick={() => setCount(7)}  disabled={count==0}>Mining</button>
+        <button onClick={() => setCount(8)}  disabled={count==0}> Metallurgy</button>
+      </div>
+      <div className="booksslide">
+        <div>
+        {
+          course_book.sub.map((sub)=>{
+            console.log(sub)
+            return(
+              <div className="row booksection" key={sub.title}>
+                <div className="col-4" ><h5>{sub.title}</h5></div>
+                <div className="col-8">
+                <ol>
+                {sub.books.map((book)=>{
+                  return(
+                    <li key={book.name}>
+                    <h6 ><a  href={book.link}>{book.name}</a></h6>
+                    </li>
+                  );
+                })
+              }
+              </ol>
+                </div>
+                <hr/>
+              </div>
+            );
+          })
+        }
         </div>
-        </div>
-        <div className="dropdown">
-        <button className="dropbtn">Basic Electrical Engineering</button>
-        <div className="drop">
-          <a href="https://drive.google.com/file/d/1NZfIAv6HXeunPbmuhJDndVTstcUAQDlr/view?usp=sharing" target="blank"><button className="btnstyle">A Course in Electrical Engineering by Chester L. Dawes</button></a>
-          <a href="https://drive.google.com/file/d/1Wsy8MC-88Z_uQJnbHN1ZadMlYv4Qfm1O/view?usp=sharing" target="blank"><button className="btnstyle">BEE by Charavarty,Nath,Chanda</button></a>
-        </div>
-        </div>
-        <div className="dropdown">
-        <button className="dropbtn">Physics</button>
-        <div className="drop">
-          <a href="https://drive.google.com/file/d/1IKs4YyrjE7hpwG4-e5sW_qhhxdOa9Z8n/view?usp=sharing" target="blank"><button className="btnstyle">Vector Analysis by Spiegel</button></a>
-          <a href="https://drive.google.com/file/d/1dSAx2s52rsRZtMVSmfpM_MbeHOJ539qV/view?usp=sharing" target="blank"><button className="btnstyle">Physics by BK Guha</button></a>
-        </div>
-        </div>
-        <div className="dropdown">
-        <button className="dropbtn">Computer</button>
-        <div className="drop">
-          <a href="https://drive.google.com/file/d/1ev93lka9VBjP-V1tl648sp-emlHGp-zC/view?usp=sharing" target="blank"><button className="btnstyle">C book</button></a>
-        </div>
-        </div>
-        <div className="dropdown">
-        <button className="dropbtn">Mechanics</button>
-        <div className="drop">
-          <a href="https://drive.google.com/file/d/1c7M0JNlwT7XXTTGXY3jWYT0UnsEeHeEV/view?usp=sharing" target="blank"><button className="btnstyle">Statics by J.L.Mariam</button></a>
-        </div>
-        </div>
-        <div className="dropdown">
-        <button className="dropbtn">Environment and Ecology</button>
-        <div className="drop">
-          <a href="https://drive.google.com/file/d/11vqauC-gdWYwmbyPsualuQ3Z8svXQPjZ/view?usp=sharing" target="blank"><button className="btnstyle">Environmental Engineering text book</button></a>
-        </div>
-        </div>
-        <div className="dropdown">
-        <button className="dropbtn">Engineering Drawing</button>
-        <div className="drop">
-          <a href="https://drive.google.com/file/d/1DaJFuHUWD3G109CiP3n88YEwPlSj2-D9/view?usp=sharing" target="blank"><button className="btnstyle">Engineering Drawing by ND Bhatt</button></a>
-        </div>
-        </div>
-        </div>
+      </div>
+      </div>
     </div>
   );
 }
