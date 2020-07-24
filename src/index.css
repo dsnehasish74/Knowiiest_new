@@ -391,3 +391,36 @@ overflow-x: scroll;
   box-shadow: 5px 5px 15px -5px rgba(0 ,0,0,0.5);
   position: relative;
 }
+.year{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.year button{
+  background-color: #1BA94C;
+  padding: 8px;
+  border: none;
+  box-shadow: 5px 5px 15px -5px rgba(27,169,76,1);
+  color: white;
+  font:20px "open sans";
+  margin: 10px 0px;
+}
+.year button:hover{
+  transition: 0.5s ease;
+  box-shadow: 5px 5px 15px -5px rgba(27,169,76,0.1);
+}
+.year button:focus{
+  padding: 10px;
+  box-shadow: 5px 5px 15px -5px rgba(0 ,0,0,0.1);
+}
+.booksslide{
+  box-shadow: 5px 5px 15px -5px rgba(0 ,0,0,0.9);
+  margin-top: 30px;
+}
+.booksection{
+  margin: 30px 0px;
+}
+.year button:disabled{
+  opacity: 0.3;
+}
