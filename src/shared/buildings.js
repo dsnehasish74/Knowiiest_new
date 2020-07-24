@@ -114,7 +114,7 @@ export const buildings=[
     {
     id:13,
     src:logo11,
-    heading:"A.K. Seal Hall(Hostel 9)"  ,
+    heading:"B.Sen Hall(Hostel 9)"  ,
     body:"This Hall is the single seated hall of residence for the boys. It accommodates the 3rd and 4th year ug students.",
     alt:"Seal Hall"
 },
@@ -122,7 +122,7 @@ export const buildings=[
   {
     id:14,
     src:logo13,
-    heading:"Hostel 10" ,
+    heading:"A.K.Seal Hall(Hostel 10)" ,
     body:"This is a First Year Hostel for undergrad course at IIEST Shibpur. Hostel facilities are good. Staffs are also good.They served great foods in the hostel Centeen. Has a common room which contains TV, sitting and carrom board. Every floor contains two WiFi router which speeds upto almost 10-11MBps. 24X7 gaurding is available. Study room is available. Washing machine is also there.",
     alt:"hostel10"
   },
