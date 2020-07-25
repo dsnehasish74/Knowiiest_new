@@ -6,7 +6,7 @@ export const books=[
       {
         title:"Math",
         books:[{link:"https://drive.google.com/file/d/1SCOmFGDqBL3jvVcx3dEebe0bHlwmZkBJ/view?usp=sharing",name:"Mathematics by Dr. Guruprasad Samanta"},
-               {link:"https://drive.google.com/file/d/186aaegRK0kN3KdmoOxyL0MTyXh47Ezqa/view?usp=sharing",name:"Diiferantial Calculas by BC Das,BN Mukherjee"},
+               {link:"https://drive.google.com/file/d/186aaegRK0kN3KdmoOxyL0MTyXh47Ezqa/view?usp=sharing",name:"Differantial Calculas by BC Das,BN Mukherjee"},
                {link:"https://drive.google.com/file/d/1x-FXtMM87Pe3u1CZ9cHACPfMYSc-RMaE/view?usp=sharing",name:"Integral and Differantial Calculus"}
       ]
       },
