@@ -15,6 +15,7 @@ import logo10 from "../images/robo.jpg"
 import logo11 from "../images/debsoc.png"
 import logo12 from "../images/reflexo.jpg"
 import logo13 from "../images/edc.jpg"
+import logo14 from "../images/cmbuff.jpg"
 function Clubs(){
   return(
     <div>
@@ -137,6 +138,13 @@ function Clubs(){
     opinions into action, or help someone in the fraternity to accomplish the desire of starting or creating a business."
     link="Facebook page link" add="https://www.facebook.com/groups/edc.iiests/"
     alt="EDC logo"
+    />
+    <hr/>
+    <MediaPresent1 src={logo14}
+     heading="Camerabuff" body="Camerabuff is the official film-club of IIEST Shibpur which aims towards providing a platform
+     for filmmaking through appreciation and discussion of cinema."
+     link="Facebook page link" add="https://www.facebook.com/Camerabuff.iiests/"
+     alt="Camera picture"
     />
     <hr/>
     </div>
