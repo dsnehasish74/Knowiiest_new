@@ -16,6 +16,7 @@ import logo11 from "../images/debsoc.png"
 import logo12 from "../images/reflexo.jpg"
 import logo13 from "../images/edc.jpg"
 import logo14 from "../images/cmbuff.jpg"
+import logo15 from "../images/aeromod.jpg"
 function Clubs(){
   return(
     <div>
@@ -145,6 +146,13 @@ function Clubs(){
      for filmmaking through appreciation and discussion of cinema."
      link="Facebook page link" add="https://www.facebook.com/Camerabuff.iiests/"
      alt="Camera picture"
+    />
+    <hr/>
+    <ReverseMedia1 src={logo15}
+    heading="Aeromodelling Club,IIEST Shibpur" body="This club represents the budding group of Aerospace Engineers from one of the oldest and finest institutes in our country. 
+    Vision of this club is to foster enthusiasm and encourage people associated and interested, in the field of aeromodelling."
+    link="Facebook page link" add="https://www.facebook.com/aeromodellingiiests/"
+    alt="aeromodelling logo"
     />
     <hr/>
     </div>
