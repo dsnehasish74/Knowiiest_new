@@ -15,22 +15,22 @@ function Books(){
         books of respective semesters will be uploaded soon..
       </div>
       <div className="year">
-        <button>1st year</button>
-        <button onClick={() => setCount(1)} disabled={count===0}>CST </button>
-        <button onClick={() => setCount(2)}  disabled={count===0}>IT </button>
-        <button onClick={() => setCount(3)}  disabled={count===0}>ME</button>
-        <button onClick={() => setCount(4)}  disabled={count===0}>Civil </button>
-        <button onClick={() => setCount(5)}  disabled={count===0}>EE </button>
-        <button onClick={() => setCount(5)} disabled={count===0}>ETC</button>
-        <button onClick={() => setCount(6)}  disabled={count===0}>Aerospace</button>
-        <button onClick={() => setCount(7)}  disabled={count===0}>Mining</button>
-        <button onClick={() => setCount(8)}  disabled={count===0}> Metallurgy</button>
+        <button onClick={() => setCount(0)} disabled={count===0}>1st year</button>
+        <button onClick={() => setCount(1)} disabled={count===1}>CST </button>
+        <button onClick={() => setCount(2)}  disabled={true}>IT </button>
+        <button onClick={() => setCount(3)}  disabled={true}>ME</button>
+        <button onClick={() => setCount(4)}  disabled={true}>Civil </button>
+        <button onClick={() => setCount(5)}  disabled={true}>EE </button>
+        <button onClick={() => setCount(5)} disabled={true}>ETC</button>
+        <button onClick={() => setCount(6)}  disabled={true}>Aerospace</button>
+        <button onClick={() => setCount(7)}  disabled={true}>Mining</button>
+        <button onClick={() => setCount(8)}  disabled={true}> Metallurgy</button>
       </div>
       <div className="booksslide">
         <div>
         {
           course_book.sub.map((sub)=>{
-            console.log(sub)
+            // console.log(sub)
             return(
               <div className="row booksection" key={sub.title}>
                 <div className="col-4" ><h5>{sub.title}</h5></div>
@@ -39,7 +39,7 @@ function Books(){
                 {sub.books.map((book)=>{
                   return(
                     <li key={book.name}>
-                    <h6 ><a  href={book.link}>{book.name}</a></h6>
+                    <h6 ><a  href={book.link} target="blank">{book.name}</a></h6>
                     </li>
                   );
                 })
