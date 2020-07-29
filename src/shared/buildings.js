@@ -20,6 +20,7 @@ import logo19 from "../images/slaterhall.jpg"
 import logo20 from "../images/gymnasium.jpg"
 import logo21 from "../images/hostel14.jpg"
 import logo22 from "../images/hostel7.png"
+import logo23 from "../images/Downinghall.jpg"
 
 export const buildings=[
   {
@@ -71,43 +72,50 @@ export const buildings=[
     body:"Slater Hall houses some of the clubs and societies of the institute, most notably the Music Club, the Debate Club, the Photography Club and the Innovation Centre.",
     alt:"Slater"
 },
+  {
+  id:7,
+  src:logo23,
+  heading:"Downing Hall " ,
+  body:"It is possibly oldest hostel of IIEST Shibpur and was built in 19th century . The hostel was named after Mr S.F. Downing , the first principal of this college . It has two prominent wings,east and west and there is an interconnecting wing .  The rooms are big and usually housed 4 boys each .It accomodates mailnly pg students . ",
+  alt:"Downing"
+},
 {
-    id:7,
+    id:8,
     src:logo6,
     heading:"Richardson Hall",
     body:"It is a 3 storey Hostel and was possibly built in early sixties. Here, only final and pre-final years' students normally stay. The design is different from that of Downing Hall as well as other hostels. It has 3 wings at 120 degrees separation. Usually, the final year boys stay at the 2nd floor, which was more airy. It is located near the main gate and a  pond exists near it. Facing this Hostel is the ground 'Lords' .",
     alt:"Richardson"
 },
   {
-    id:8,
+    id:9,
     src:logo7,
     heading:"Wolfenden Hall" ,
     body:"This is a glamourous Hall . It has an aura about it and is located right across the Oval ground. Each room consists of a tubelight, a fan, a bed, a table, a chair and an almirah . Mess food is good  . During College Re-unions, one can find the whole front of the Hostel would get illuminated with the colorful bulbs to look great from a distance.Here, final and pre-final years' Students are allowed to stay.",
     alt:"Wolfenden"
   },
   {
-    id:9,
+    id:10,
     src:logo8,
     heading:"Sengupta Hall",
     body:"Sengupta Hall is the single-seated hall of residence for the boys. It accommodates the 3rd and 4th-year ug students.",
     alt:"Sengupta"
 },
 {
-    id:10,
+    id:11,
      src:logo9,
     heading:"Sen Hall"   ,
      body:"Sen Hall is the single seated hall of residence for the boys. It accommodates the 3rd and 4th year ug students. Each room consists of atubelight, a fan, a bed, a table, a chair and an almirah. Arrangements for playing indoor games like table tennis and carom board is available. Sen hall has it's own garden where you can play badminton or short-pitch cricket. Mess food is good. Biriyani is served 2 to 3 times in a month. Arrangements for a common tv,3–4 types of newspapers in english and bengali, several types of magazines, employment news are also there. Each year Freshers party for 3rd year and Farewell party for 4th year is held.",
     alt:"Sen Hall"
   },
   {
-    id:11,
+    id:12,
     src:logo10,
     heading:"Macdonald Hall" ,
     body:"This Hall is the single seated hall of residence for the boys. It accommodates the 3rd and 4th year ug students.",
     alt:"Macdonald"
   },
   {
-    id:12,
+    id:13,
     src:logo22,
     heading:"A.C. Roy Hall(Hostel 7)" ,
     body:"This is a Second Year hostel for Boys. The ambience is good. The food is also good and breakfast,lunch and dinner are timely provided. It has  Washing machine.. Good mess staff.... has a badminton court,  a fresh front view of garden .",
@@ -115,14 +123,14 @@ export const buildings=[
   },
  
   {
-    id:13,
+    id:14,
     src:logo12,
     heading:"D. Banerjee Hall(Hostel 8)"  ,
      body:"This is a First Year Hostel. In this hostel, there are two games rooms,one is for table tennis and other for carrom and news paper. There is small garden in front of hostel. Every facility is available for students here. It is very secured hostel. The IIEST,Shibpur is so well famous for its green campus and if you are not a hostelite then you are going to miss something very  important. The weather is pretty nice with the Ganga in half a kilometer of aerial distance. You can constantly feel the breeze coming in. Spring is one of the best times here.You have common rooms with carrom boards and TT. You also have access to newspapers in almost about 3 languages and television . Inter-hostel/hall sports are organised comprising cricket, football, table tennis, badminton, carrom etc. Festivals are celebrated with much fervour. Be it Holi, Diwali, Christmas, Pongal, Onam, Saraswati Puja or Durga Puja; you will find your hostel illuminated and brimming with energy.",
     alt:"Hostel 8"
   },
     {
-    id:14,
+    id:15,
     src:logo11,
     heading:"B.Sen Hall(Hostel 9)"  ,
     body:"This Hall is four-seated hall of residence for the boys. It accommodates the first year ug students.There is small garden in front of hostel .There is common room with TT",
@@ -130,7 +138,7 @@ export const buildings=[
 },
 
   {
-    id:15,
+    id:16,
     src:logo13,
     heading:"A.K.Seal Hall(Hostel 10)" ,
     body:"This is a First Year Hostel. Hostel facilities are good. Staffs are also good.They served great foods in the hostel Centeen. Has a common room which contains TV, sitting and carrom board. Every floor contains two WiFi router which speeds upto almost 10-11MBps. 24X7 gaurding is available. Study room is available. Washing machine is also there.",
@@ -138,14 +146,14 @@ export const buildings=[
   },
 
   {
-    id:16,
+    id:17,
     src:logo14,
     heading:"Hostel 11",
     body:"This is a Second Year hostel for Boys. The ambience is good. The food too is good, and breakfast,lunch and dinner are timely provided. This hostel is situated in the best location of campus. It has security camera... Washing machine.. Good mess staff.. Security is too tight.. has a badminton court, a volleyball court, a fresh front view of garden and a great backyard due to Neem lake. ",
     alt:"hostel11"
 },
  {
-  id:17,
+  id:18,
   src:logo21,
   heading:"Hostel 14",
   body:"It is a hostel for undergraduate students of IIEST, Shibpur . It is a fantastic hostel with the availability of all necessary facilities including good mess food. ",
@@ -153,27 +161,27 @@ export const buildings=[
  },
 
   {
-    id:18,
+    id:19,
     src:logo15,
     heading:"Hostel 15" ,
     body:"This is a Boys hostel. The facilities available are: 1. Free Unlimited WiFi access available, 2. T.V is there in the common room, 3. Suffiecient Bathrooms in each & every floor, 4. Water purifier is there for drinking water, 5. Dust Bin in each & every floor, 6.Badminton Court in the Front Yard, 7. Beautiful Garden in the Front Yard, 8. Indoor games are available (carrom). People here has Good experience and the Food is really good.",
     alt:"hostel15"
   },
     {
-    id:19,
+    id:20,
     src:logo16,
     heading:"Lt Williams Halls of Residence",
     body:"Lt Williams Halls of Residence is a ladies hostel for PG and Research Scholars. It's beautifull place to stay with awesome food, 24 hours security and all necessary facilities.  The rooms accomodate maximum 2 and cleaning is done everyday. Foods are avilable even on vacation like Durga Pooja, Summer vacation. Beautiful view of the River Ganga from the Hostel and cool breeze comes in. ", alt:"LtWilliams"
   },
 {
-    id:20,
+    id:21,
     src:logo17,
     heading:"Sister Nivedita Ladies Hostel" ,
     body:"First year girls hostel for the students of IIEST, SHIBPUR. The hostel with 3 floors has newly renovated interior.The atmosphere is amazing. The rooms are occupied by four girls.Each floor have almost 12 rooms and 2 washrooms and also a common room. There is a mess and a common room in ground floor. 24 hours security guard is available.",
     alt:"Nivedita"
   },
   {
-    id:21,
+    id:22,
     src:logo18,
     heading:"Pandya Hall (Girls Hostel)"  ,
     body:"Hostel of 2nd, 3rd, 4th year undergraduate girls and also some post graduate students live here. The hostel is more close from gate no 1 than gate no 2.The hall organises sports event every year. The place is surrounded by institute hospital,guest house,boxing ring, basketball court. It is in front of clock tower and vidisha lake. The food offered here is awesome. ",
