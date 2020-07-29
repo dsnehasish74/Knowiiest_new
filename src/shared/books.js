@@ -50,27 +50,27 @@ export const books=[
   course:"CST",
   sub:[
     {
-      title:"Data Structure[2nd year]",
+      title:"Data Structure [2nd year]",
       books:[{link:"https://drive.google.com/drive/folders/1ZWDmMs510AFgxLT6WGakK1HfHCAbYwKd?usp=sharing",name:"Study materials of Data Structure"},
     ]
     },
     {
-      title:"Digital Logic[2nd year]",
+      title:"Digital Logic [2nd year]",
       books:[{link:"https://drive.google.com/drive/folders/1Z3EWyFvnNi5ODwVkzjom7zFbwrSRUS8P?usp=sharing",name:"Study materials of Digital Logic"}
             ]
     },
     {
-      title:"Discrete Structure[2nd year]",
+      title:"Discrete Structure [2nd year]",
       books:[{link:"https://drive.google.com/drive/folders/1NZN88JEwiNlWr06Jd-_uyM15ilz1DSsT?usp=sharing",name:"Study materials of Discrete Structure"},
             ]
     },
     {
-      title:"Electrical Machines[2nd year]",
+      title:"Electrical Machines [2nd year]",
       books:[{link:"https://drive.google.com/drive/folders/1Z1SybmP3r2K7QWyK-q2tv8NjJaatUzkV?usp=sharing",name:"Study materials of Electrical Machines"},
             ]
     },
     {
-      title:"Math[2nd year]",
+      title:"Math [2nd year]",
       books:[{link:" https://drive.google.com/drive/folders/1ttTu41KIRCAGdAkax8710MXwvB3h9Yn7?usp=sharing",name:"Study materials of Math"},
             ]
     },
