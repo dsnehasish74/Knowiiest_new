@@ -8,7 +8,7 @@ function Navigation(props){
       <div className="div-header main-nav">
         <div className="logo"><Link to="/"><img src={logo} alt="Know IIESTS Logo" className="brandlogo"></img></Link></div>
         <div className="navLink">
-        <NavLink className="link" to="/about">Aboutus</NavLink>
+        <NavLink className="link" to="/about">About us</NavLink>
         <a href="https://yournewabode.blogspot.com/">blog</a>
       </div>
       </div>
