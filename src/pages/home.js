@@ -9,7 +9,9 @@ function Home(){
       <div className="intro">
         <div className="intro-text">
           <h2>Know IIESTS</h2>
-          <p>IIEST is a premiere engineering Institute (NIT) of india with <a href="https://www.nirfindia.org/2020/EngineeringRanking.html" style={{color:'white'}}>NIRF rank of 21 among all engineering institutions of india </a> and 6 among architecture Institutes.IIEST is not just an engineering institution , it's an emotion. The environment here has the magic to transform all your anxiety into happiness. It not only gives us the degree oriented education, but gives us the exposure to explore, and to be a human BEing.</p>
+          <p>Since it's establishment in 1856, the Indian Institute of Engineering Science and Technology, Shibpur (IIEST Shibpur) erstwhile BE College/ BESU  is a premier institute being the second oldest engineering college of India which has significantly contributed to the development of this nation. The college has a rich culture of heritage with foundations
+             of historical importance and a green lush campus where one can find moments of serenity.
+          </p>
         </div>
       </div>
       <Pagenav/>
@@ -51,8 +53,8 @@ function Home(){
         <hr></hr>
           <div className="row">
               <div className="col-10">
-                    <h6>*An application for general students living in B.GARDEN, BE-College area*</h6>
-                    <p>Sincerely with the BE-College closed for a long time the vendors of the colleges small shop are in dire straits.In such a situation, the book-notebook-pen shop(cheapstore) has taken the initiative to deliver all the items like notebooks and pens to the home delivery facility .Content will be delivered to BE College,B.GARDEN and surrounding areas on the basis of phone orders contact no. 8240424726</p>
+                    <h6>*An application for general students living in B.GARDEN, BE College area*</h6>
+                    <p>Sincerely with the BE College closed for a long time the vendors of the colleges small shop are in dire straits.In such a situation, the book-notebook-pen shop(cheapstore) has taken the initiative to deliver all the items like notebooks and pens to the home delivery facility .Content will be delivered to BE College,B.GARDEN and surrounding areas on the basis of phone orders contact no. 8240424726</p>
               </div>
               <div className="col-2 mt-5">
                   <a role="button" className=" btn btn-success" href="tel:+918240424726"><i className="fa fa-phone fa-lg"></i></a>
