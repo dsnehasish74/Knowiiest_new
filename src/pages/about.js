@@ -49,7 +49,7 @@ function About(){
           <div className="middle">
           <div className="text">
             <h6>Devtanu Misra</h6>
-            <h6>Web Developer & Content Writer</h6>
+            <h6>Web Developer</h6>
             <a href="https://www.facebook.com/jhontu.charan.1" target="blank"><i className="fa fa-facebook about-icon fa-lg"></i></a>
             <a href="https://www.linkedin.com/in/devtanu-misra-1829441a0/" target="blank"><i className="fa fa-linkedin about-icon fa-lg"></i></a>
             <a href="mailto:devtanumisra@gmail.com" target="blank"><i className="fa fa-envelope about-icon fa-lg"></i></a>
