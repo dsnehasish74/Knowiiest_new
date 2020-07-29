@@ -154,11 +154,11 @@ export const buildings=[
     alt:"hostel11"
 },
   {
-  id:18,
-  src:logo24,
-  heading:"Hostel 13",
-  body:"This hostel is exclusively for pg students and research scholars. The food is  good, and breakfast,lunch and dinner are timely provided. This hostel is situated in a nice location of campus.Gaming and good wi-fi facilities are available here . ",
-  alt:"hostel13"
+    id:18,
+    src:logo24,
+    heading:"Hostel 13",
+    body:"This hostel is exclusively for pg students and research scholars. The food is  good, and breakfast,lunch and dinner are timely provided. This hostel is situated in a nice location of campus.Gaming and good wi-fi facilities are available here . ",
+    alt:"hostel13"
 },
  {
   id:19,
