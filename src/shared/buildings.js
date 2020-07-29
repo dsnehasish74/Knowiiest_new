@@ -21,7 +21,7 @@ import logo20 from "../images/gymnasium.jpg"
 import logo21 from "../images/hostel14.jpg"
 import logo22 from "../images/hostel7.png"
 import logo23 from "../images/Downinghall.jpg"
-import logo24 from "src/images/hostel13.jpg"
+import logo24 from "../images/hostel13.jpg"
 
 export const buildings=[
   {
