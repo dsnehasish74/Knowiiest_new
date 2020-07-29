@@ -3,6 +3,7 @@ import logo2 from "../images/victoria.jpg"
 import logo3 from "../images/museum.jpg"
 import logo4 from "../images/nandan.jpg"
 import logo5 from "../images/zoo.jpg"
+import logo6 from "../images/prinsep.jpg"
 
 export const touristsdetails=[
   {
@@ -39,5 +40,12 @@ export const touristsdetails=[
     heading:"Alipoor Zoo" ,
     body:"The Zoological Garden, Alipore (also informally called the Alipore Zoo or Calcutta Zoo) is India's oldest formally stated zoological park (as opposed to royal and British menageries) and a big tourist attraction in Kolkata, West Bengal. It has been open as a zoo since 1876, and covers 18.811 ha (46.48 acres). It is probably best known as the home of the now expired Aldabra giant tortoise Adwaita, who was reputed to have been over 250 years old when he died in 2006. It is also home to one of the few captive breeding projects involving the Manipur brow-antlered deer. One of the most popular tourist attractions in Kolkata,it draws huge crowds during the winter season, especially during December and January.",
     alt:"zoo picture"
+  },
+  {
+    id:5,
+    src:logo6,
+    heading:"Princep Ghat" ,
+    body:"Five minutes of soothing breeze is what you need to come out from anxiety and depression. The ideal atmosphere is there at Princep ghat. Princep Ghat is a ghat built in 1841 during the British Raj, along the Kolkata bank of the Hooghly River in India. The Palladian porch in the memory of the eminent Anglo-Indian scholar and antiquary James Prinsep was designed by W. Fitzgerald and constructed in 1843.",
+    alt:"ghat picture"
   }
 ]

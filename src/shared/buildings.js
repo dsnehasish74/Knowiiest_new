@@ -75,14 +75,14 @@ export const buildings=[
     id:7,
     src:logo6,
     heading:"Richardson Hall",
-    body:"It was a 3 storey Hostel and was possibly built in early sixties. Here, only final and pre-final years' students normally stayed. The design was different from that of Downing Hall as well as Hostels 7-16. It had 3 wings at 120 degrees separation. Usually, the final year boys stayed at the 2nd floor, which was more airy. The Hostel had no fans. It was located near the main gate and a slushy pond existed near it. Facing this Hostel is the ground 'Lords' .",
+    body:"It is a 3 storey Hostel and was possibly built in early sixties. Here, only final and pre-final years' students normally stay. The design is different from that of Downing Hall as well as other hostels. It has 3 wings at 120 degrees separation. Usually, the final year boys stay at the 2nd floor, which was more airy. It is located near the main gate and a  pond exists near it. Facing this Hostel is the ground 'Lords' .",
     alt:"Richardson"
 },
   {
     id:8,
     src:logo7,
     heading:"Wolfenden Hall" ,
-    body:"The Boarders are called Wolves, jokingly. This is the Hall, most glamourous, where the most extrovert would go.It is not theHostel for the studious type! People who had left a mark or wanted to make a mark preferred this hostel. It has an aura about it an is located right across the Oval ground. It used to be an expensive Hostel, so far as food bills are concerned. During College Re-unions, one could find the whole front of the Hostel would get illuminated with the colorful bulbs to look great from a distance.Here, final and pre-final years' Students are allowed to stay.",
+    body:"This is a glamourous Hall . It has an aura about it and is located right across the Oval ground. Each room consists of a tubelight, a fan, a bed, a table, a chair and an almirah . Mess food is good  . During College Re-unions, one can find the whole front of the Hostel would get illuminated with the colorful bulbs to look great from a distance.Here, final and pre-final years' Students are allowed to stay.",
     alt:"Wolfenden"
   },
   {
@@ -110,7 +110,7 @@ export const buildings=[
     id:12,
     src:logo22,
     heading:"A.C. Roy Hall(Hostel 7)" ,
-    body:"This is a Second Year hostel for Boys. The ambience is good. The food too is good, and breakfast,lunch and dinner are timely provided. It has  Washing machine.. Good mess staff.... has a badminton court,  a fresh front view of garden .",
+    body:"This is a Second Year hostel for Boys. The ambience is good. The food is also good and breakfast,lunch and dinner are timely provided. It has  Washing machine.. Good mess staff.... has a badminton court,  a fresh front view of garden .",
     alt:"Hostel 7"
   },
  
@@ -118,14 +118,14 @@ export const buildings=[
     id:13,
     src:logo12,
     heading:"D. Banerjee Hall(Hostel 8)"  ,
-     body:"This is a First Year Hostel. In this hostel, there are two games rooms,one is for table tennis and other for carrom and news paper. There is small garden in front of hostel. Every facility is available for students here. It is very secured hostel. The IIEST,Shibpur is so well famous for its green campus and if you are not a hostelite then you are going to miss something very very important. The weather is pretty nice with the Ganga in half a kilometer of aerial distance. You can constantly feel the breeze coming in. Spring is one of the best times here.You have common rooms with carrom boards and TT. You also have access to newspapers in almost about 3 languages, television and radio. Inter-hostel/hall sports are organised comprising cricket, football, table tennis, badminton, carrom etc. Festivals are celebrated with much fervour. Be it Holi, Diwali, Christmas, Pongal, Onam, Saraswati Puja or Durga Puja; you will find your hostel illuminated and brimming with energy.",
+     body:"This is a First Year Hostel. In this hostel, there are two games rooms,one is for table tennis and other for carrom and news paper. There is small garden in front of hostel. Every facility is available for students here. It is very secured hostel. The IIEST,Shibpur is so well famous for its green campus and if you are not a hostelite then you are going to miss something very  important. The weather is pretty nice with the Ganga in half a kilometer of aerial distance. You can constantly feel the breeze coming in. Spring is one of the best times here.You have common rooms with carrom boards and TT. You also have access to newspapers in almost about 3 languages and television . Inter-hostel/hall sports are organised comprising cricket, football, table tennis, badminton, carrom etc. Festivals are celebrated with much fervour. Be it Holi, Diwali, Christmas, Pongal, Onam, Saraswati Puja or Durga Puja; you will find your hostel illuminated and brimming with energy.",
     alt:"Hostel 8"
   },
     {
     id:14,
     src:logo11,
     heading:"B.Sen Hall(Hostel 9)"  ,
-    body:"This Hall is the single seated hall of residence for the boys. It accommodates the first year ug students.",
+    body:"This Hall is four-seated hall of residence for the boys. It accommodates the first year ug students.There is small garden in front of hostel .There is common room with TT",
     alt:"Seal Hall"
 },
 
@@ -163,7 +163,7 @@ export const buildings=[
     id:19,
     src:logo16,
     heading:"Lt Williams Halls of Residence",
-    body:"Lt Williams Halls of Residence is a ladies hostel for PG and Research Scholars. It's beautifull place to stay with awesome food, 24 hours security and all necessary facilities. Address : 6B, Indian Institute of Engineering Science and Technology, Shalimar, Howrah, West Bengal. The rooms accomodate maximum 2 and cleaning is done everyday. Foods are avilable even on vacation like Durga Pooja, Summer vacation. Beautiful view of the River Ganga from the Hostel and cool breeze comes in. ", alt:"LtWilliams"
+    body:"Lt Williams Halls of Residence is a ladies hostel for PG and Research Scholars. It's beautifull place to stay with awesome food, 24 hours security and all necessary facilities.  The rooms accomodate maximum 2 and cleaning is done everyday. Foods are avilable even on vacation like Durga Pooja, Summer vacation. Beautiful view of the River Ganga from the Hostel and cool breeze comes in. ", alt:"LtWilliams"
   },
 {
     id:20,
@@ -176,7 +176,7 @@ export const buildings=[
     id:21,
     src:logo18,
     heading:"Pandya Hall (Girls Hostel)"  ,
-    body:"Hostel of 2, 3, 4 years undergraduate girls and also some post graduate students live here. The hostel is more close from gate no 1 than gate no 2.The hall organises sports event every year. The place is surrounded by institute hospital,guest house,boxing ring, basketball court. It is in front of clock tower and vidisha lake. The food offered here is awesome. ",
+    body:"Hostel of 2nd, 3rd, 4th year undergraduate girls and also some post graduate students live here. The hostel is more close from gate no 1 than gate no 2.The hall organises sports event every year. The place is surrounded by institute hospital,guest house,boxing ring, basketball court. It is in front of clock tower and vidisha lake. The food offered here is awesome. ",
     alt:"Pandya Hall"
 
   }

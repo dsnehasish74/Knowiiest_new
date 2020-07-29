@@ -40,15 +40,15 @@ export const fests=[
 {
 id:3,
  src:aikatan,
-  heading:"OIKOTAN" ,
+  heading:"OIKOTAAN" ,
   body:"Another unique annual fest to be hosted by the institute. Oikotaan celebrates music and creativity in a way that has not been explored in college campuses pretty often. No doubt it has become an annual celebration of young talents from across the nation striving to let their music be heard, and Oikotaan gives them just the right platform to do so. With an eminent panel of noted musicians, a budding talent has got all the advise in the world to go forward with. This is organised by Euphony, the Music Society of IIEST Shibpur.",
   alt:"OIKOTAN"
 },
 {
   id:4,
   src:anuranon,
-  heading:"ANURANON" ,
-  body:"Badal Sircar's legend still lives on in the college in the form of an active Dramatics society - the Les Thespians who organise Anuranon every year, which is usually a colorful culmination of myriad emotions, expressions and captures the rich heritage of this institute. ",
+  heading:"ANURANAN" ,
+  body:"Badal Sircar's legend still lives on in the college in the form of an active Dramatics society - the Les Thespians who organise Anuranan every year, which is usually a colorful culmination of myriad emotions, expressions and captures the rich heritage of this institute. ",
   alt:"ANURANON"
 },
 {
