@@ -1,7 +1,7 @@
-import logo1 from "../images/cafe_inn.png"
-import logo2 from "../images/Institute_canteen.png"
-import logo3 from "../images/ladies_canteen.png"
-import logo4 from "../images/student_canteen.png"
+import logo1 from "../images/cafe_inn.jpg"
+import logo2 from "../images/Institute_canteen.jpg"
+import logo3 from "../images/ladies_canteen.jpg"
+import logo4 from "../images/student_canteen.jpg"
 export const canteen=[
   {
     id:0,
