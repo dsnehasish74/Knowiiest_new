@@ -133,6 +133,8 @@ nav{
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
+  margin-top: 50px;
+  box-shadow: 5px 5px 15px -5px rgba(0 ,0,0,0.5);
 }
 
 .typewriter h1 {
