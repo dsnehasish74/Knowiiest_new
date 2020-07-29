@@ -21,6 +21,7 @@ import logo20 from "../images/gymnasium.jpg"
 import logo21 from "../images/hostel14.jpg"
 import logo22 from "../images/hostel7.png"
 import logo23 from "../images/Downinghall.jpg"
+import logo24 from "../images/hostel3.jpg"
 
 export const buildings=[
   {
@@ -152,8 +153,15 @@ export const buildings=[
     body:"This is a Second Year hostel for Boys. The ambience is good. The food too is good, and breakfast,lunch and dinner are timely provided. This hostel is situated in the best location of campus. It has security camera... Washing machine.. Good mess staff.. Security is too tight.. has a badminton court, a volleyball court, a fresh front view of garden and a great backyard due to Neem lake. ",
     alt:"hostel11"
 },
- {
+  {
   id:18,
+  src:logo24,
+  heading:"Hostel 13",
+  body:"This hostel is exclusively for pg students and research scholars. The food is  good, and breakfast,lunch and dinner are timely provided. This hostel is situated in a nice location of campus.Gaming and good wi-fi facilities are available here . ",
+  alt:"hostel13"
+},
+ {
+  id:19,
   src:logo21,
   heading:"Hostel 14",
   body:"It is a hostel for undergraduate students of IIEST, Shibpur . It is a fantastic hostel with the availability of all necessary facilities including good mess food. ",
@@ -161,27 +169,27 @@ export const buildings=[
  },
 
   {
-    id:19,
+    id:20,
     src:logo15,
     heading:"Hostel 15" ,
     body:"This is a Boys hostel. The facilities available are: 1. Free Unlimited WiFi access available, 2. T.V is there in the common room, 3. Suffiecient Bathrooms in each & every floor, 4. Water purifier is there for drinking water, 5. Dust Bin in each & every floor, 6.Badminton Court in the Front Yard, 7. Beautiful Garden in the Front Yard, 8. Indoor games are available (carrom). People here has Good experience and the Food is really good.",
     alt:"hostel15"
   },
     {
-    id:20,
+    id:21,
     src:logo16,
     heading:"Lt Williams Halls of Residence",
     body:"Lt Williams Halls of Residence is a ladies hostel for PG and Research Scholars. It's beautifull place to stay with awesome food, 24 hours security and all necessary facilities.  The rooms accomodate maximum 2 and cleaning is done everyday. Foods are avilable even on vacation like Durga Pooja, Summer vacation. Beautiful view of the River Ganga from the Hostel and cool breeze comes in. ", alt:"LtWilliams"
   },
 {
-    id:21,
+    id:22,
     src:logo17,
     heading:"Sister Nivedita Ladies Hostel" ,
     body:"First year girls hostel for the students of IIEST, SHIBPUR. The hostel with 3 floors has newly renovated interior.The atmosphere is amazing. The rooms are occupied by four girls.Each floor have almost 12 rooms and 2 washrooms and also a common room. There is a mess and a common room in ground floor. 24 hours security guard is available.",
     alt:"Nivedita"
   },
   {
-    id:22,
+    id:23,
     src:logo18,
     heading:"Pandya Hall (Girls Hostel)"  ,
     body:"Hostel of 2nd, 3rd, 4th year undergraduate girls and also some post graduate students live here. The hostel is more close from gate no 1 than gate no 2.The hall organises sports event every year. The place is surrounded by institute hospital,guest house,boxing ring, basketball court. It is in front of clock tower and vidisha lake. The food offered here is awesome. ",
