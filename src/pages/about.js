@@ -11,7 +11,7 @@ function About(){
     <div className="container fade">
     <div className="type-body">
     <div className="typewriter">
-      <h1>Developer Team of This Project</h1>
+      <h1>Our Team</h1>
       </div>
     </div>
         <div className="row">
@@ -19,7 +19,6 @@ function About(){
           <div className="middle">
     <div className="text">
       <h6>Malay Gain</h6>
-      <h6>Web Developer</h6>
       <a href="https://www.facebook.com/gain.malay" target="blank"><i className="fa fa-facebook about-icon fa-lg"></i></a>
       <a href="https://www.linkedin.com/in/malay-gain-43466419a/" target="blank"><i className="fa fa-linkedin about-icon fa-lg"></i></a>
       <a href="mailto: malaygain10@gmail.com" target="blank"><i className="fa fa-envelope about-icon fa-lg"></i></a>
@@ -29,7 +28,6 @@ function About(){
           <div className="middle">
           <div className="text">
             <h6>Anish De</h6>
-            <h6>App Developer</h6>
             <a href="https://www.facebook.com/anish.de.33" target="blank"><i className="fa fa-facebook about-icon fa-lg"></i></a>
             <a href="https://www.linkedin.com/in/anish-de-1b090a193/" target="blank"><i className="fa fa-linkedin about-icon fa-lg"></i></a>
             <a href="mailto:anishde85@gmail.com"><i className="fa fa-envelope about-icon fa-lg" target="blank"></i></a>
@@ -39,7 +37,6 @@ function About(){
           <div className="middle">
           <div className="text">
             <h6>Snehasish Dhar</h6>
-            <h6>Web Developer</h6>
             <a href="https://www.facebook.com/snehasish.dhar.129" target="blank"><i className="fa fa-facebook about-icon fa-lg"></i></a>
             <a href="http://www.linkedin.com/in/snehasish-dhar-b657721a0" target="blank"><i className="fa fa-linkedin about-icon fa-lg"></i></a>
             <a href="mailto:dsnehasish74@gmail.com" target="blank"><i className="fa fa-envelope about-icon fa-lg"></i></a>
@@ -49,7 +46,6 @@ function About(){
           <div className="middle">
           <div className="text">
             <h6>Devtanu Misra</h6>
-            <h6>Web Developer</h6>
             <a href="https://www.facebook.com/jhontu.charan.1" target="blank"><i className="fa fa-facebook about-icon fa-lg"></i></a>
             <a href="https://www.linkedin.com/in/devtanu-misra-1829441a0/" target="blank"><i className="fa fa-linkedin about-icon fa-lg"></i></a>
             <a href="mailto:devtanumisra@gmail.com" target="blank"><i className="fa fa-envelope about-icon fa-lg"></i></a>
@@ -59,7 +55,6 @@ function About(){
           <div className="middle">
           <div className="text">
             <h6>Sounak Majumder</h6>
-            <h6>Web Developer & App Developer</h6>
             <a href="https://www.facebook.com/profile.php?id=100008773576079" target="blank"><i className="fa fa-facebook about-icon fa-lg"></i></a>
             <a href="https://www.linkedin.com/in/sounak-majumder-45b183197/" target="blank"><i className="fa fa-linkedin about-icon fa-lg"></i></a>
             <a href=" mailto:Sounakmajumder472@gmail.com" target="blank"><i className="fa fa-envelope about-icon fa-lg"></i></a>
@@ -69,7 +64,6 @@ function About(){
           <div className="middle">
           <div className="text">
             <h6>Ahel Das chatterjee</h6>
-            <h6>App Developer</h6>
             <a href="https://www.linkedin.com/in/ahel-das-chatterjee-5145131a0/" target="blank"><i className="fa fa-linkedin about-icon fa-lg"></i></a>
             <a href="mailto:aheldc@gmail.com" target="blank"><i className="fa fa-envelope about-icon fa-lg"></i></a>
           </div>
