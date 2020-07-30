@@ -113,4 +113,15 @@ sub:[
   },
 ]
 },
+{
+id:3,
+course:"ETC",
+sub:[
+  {
+    title:"ETC(all)",
+    books:[{link:"https://drive.google.com/folderview?id=0B645DAi5zHJNQzRteVpWNzdZLWM",name:"Entire set of materials for etc,2nd to 4th year"},
+  ]
+  },
+]
+},
 ]
