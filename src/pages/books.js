@@ -18,6 +18,7 @@ function Books(){
         <button onClick={() => setCount(0)} disabled={count===0}>1st year</button>
         <button onClick={() => setCount(1)} disabled={count===1}>CST </button>
         <button onClick={() => setCount(2)}  disabled={count===2}>Aerospace</button>
+        <button onClick={() => setCount(3)} disabled={count===3}>ETC</button>
         <button onClick={() => setCount(3)}  disabled={true}>IT </button>
         <button onClick={() => setCount(4)}  disabled={true}>ME</button>
         <button onClick={() => setCount(5)}  disabled={true}>Civil </button>
