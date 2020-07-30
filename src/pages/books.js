@@ -17,14 +17,14 @@ function Books(){
       <div className="year">
         <button onClick={() => setCount(0)} disabled={count===0}>1st year</button>
         <button onClick={() => setCount(1)} disabled={count===1}>CST </button>
-        <button onClick={() => setCount(2)}  disabled={true}>IT </button>
-        <button onClick={() => setCount(3)}  disabled={true}>ME</button>
-        <button onClick={() => setCount(4)}  disabled={true}>Civil </button>
-        <button onClick={() => setCount(5)}  disabled={true}>EE </button>
-        <button onClick={() => setCount(5)} disabled={true}>ETC</button>
-        <button onClick={() => setCount(6)}  disabled={true}>Aerospace</button>
-        <button onClick={() => setCount(7)}  disabled={true}>Mining</button>
-        <button onClick={() => setCount(8)}  disabled={true}> Metallurgy</button>
+        <button onClick={() => setCount(2)}  disabled={count===2}>Aerospace</button>
+        <button onClick={() => setCount(3)}  disabled={true}>IT </button>
+        <button onClick={() => setCount(4)}  disabled={true}>ME</button>
+        <button onClick={() => setCount(5)}  disabled={true}>Civil </button>
+        <button onClick={() => setCount(6)}  disabled={true}>EE </button>
+        <button onClick={() => setCount(7)} disabled={true}>ETC</button>
+        <button onClick={() => setCount(8)}  disabled={true}>Mining</button>
+        <button onClick={() => setCount(9)}  disabled={true}> Metallurgy</button>
       </div>
       <div className="booksslide">
         <div>
