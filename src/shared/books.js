@@ -50,31 +50,67 @@ export const books=[
   course:"CST",
   sub:[
     {
-      title:"Data Structure [2nd year]",
-      books:[{link:"https://drive.google.com/drive/folders/1ZWDmMs510AFgxLT6WGakK1HfHCAbYwKd?usp=sharing",name:"Study materials of Data Structure"},
+      title:"Data Structure",
+      books:[{link:"https://drive.google.com/drive/folders/1ZWDmMs510AFgxLT6WGakK1HfHCAbYwKd?usp=sharing",name:"All books of Data Structure"},
     ]
     },
     {
-      title:"Digital Logic [2nd year]",
-      books:[{link:"https://drive.google.com/drive/folders/1Z3EWyFvnNi5ODwVkzjom7zFbwrSRUS8P?usp=sharing",name:"Study materials of Digital Logic"}
+      title:"Digital Logic",
+      books:[{link:"https://drive.google.com/drive/folders/1Z3EWyFvnNi5ODwVkzjom7zFbwrSRUS8P?usp=sharing",name:"All books of Digital Logic"}
             ]
     },
     {
-      title:"Discrete Structure [2nd year]",
-      books:[{link:"https://drive.google.com/drive/folders/1NZN88JEwiNlWr06Jd-_uyM15ilz1DSsT?usp=sharing",name:"Study materials of Discrete Structure"},
+      title:"Discrete Structure",
+      books:[{link:"https://drive.google.com/drive/folders/1NZN88JEwiNlWr06Jd-_uyM15ilz1DSsT?usp=sharing",name:"All books of Discrete Structure"},
             ]
     },
     {
-      title:"Electrical Machines [2nd year]",
-      books:[{link:"https://drive.google.com/drive/folders/1Z1SybmP3r2K7QWyK-q2tv8NjJaatUzkV?usp=sharing",name:"Study materials of Electrical Machines"},
+      title:"Electrical Machines",
+      books:[{link:"https://drive.google.com/drive/folders/1Z1SybmP3r2K7QWyK-q2tv8NjJaatUzkV?usp=sharing",name:"All books of Electrical Machines"},
             ]
     },
     {
-      title:"Math [2nd year]",
-      books:[{link:" https://drive.google.com/drive/folders/1ttTu41KIRCAGdAkax8710MXwvB3h9Yn7?usp=sharing",name:"Study materials of Math"},
+      title:"MathIII",
+      books:[{link:" https://drive.google.com/drive/folders/1ttTu41KIRCAGdAkax8710MXwvB3h9Yn7?usp=sharing",name:"All books of MathIII"},
             ]
     },
 
   ]
+},
+{
+id:2,
+course:"Aerospace",
+sub:[
+  {
+    title:"3rd sem",
+    books:[{link:"https://drive.google.com/folderview?id=1THzJTC0bMBDlzM_QkyqnqzYHvdBmk0n2",name:"All books and notes for 3rd Sem"},
+  ]
+  },
+  {
+    title:"4th sem",
+    books:[{link:"https://drive.google.com/drive/folders/1ivFSPeJMuGTmzJOM_TyYZcGNTBBSi2mn?usp=sharing_eil&ts=5cb5fa59",name:"All books and notes for 4th Sem"},
+  ]
+  },
+  {
+    title:"5th Sem",
+    books:[{link:"https://drive.google.com/drive/folders/1YpeLMVG95mROdAX6TXrxWapNtmATbUmA?usp=sharing_eil&ts=5cb5fa91",name:"All books and notes for 5th Sem"}
+          ]
+  },
+  {
+    title:"6th sem",
+    books:[{link:"https://drive.google.com/drive/folders/1Rptwqwho1qQH9pMDoHHG49FYDYtxcNcI?usp=sharing_eil&ts=5cb5fa9d",name:"All books and notes for 6th Sem"},
+          ]
+  },
+  {
+    title:"7th sem",
+    books:[{link:"https://drive.google.com/drive/folders/1hBtUXKn-igrhwWihex1O2VEP89mTYzW_?usp=sharing_eil&ts=5cb5faa8",name:"All books and notes for 7th Sem"},
+          ]
+  },
+  {
+    title:"8th sem",
+    books:[{link:"https://drive.google.com/drive/folders/1v9QSsEMiRB441B_0-QDk7ljdP_zF93Yo?usp=sharing_eil&ts=5cb5fab6",name:"All books and notes for 8th Sem"},
+          ]
+  },
+]
 },
 ]
