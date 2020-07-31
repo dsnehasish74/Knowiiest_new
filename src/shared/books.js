@@ -152,7 +152,7 @@ sub:[
 },
   
  {
-   id:6,
+   id:4,
    course:"EE",
    sub:[
      {
