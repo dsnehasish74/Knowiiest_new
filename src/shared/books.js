@@ -150,4 +150,29 @@ sub:[
   
 ]
 },
+  
+ {
+   id:4,
+   course:"EE",
+   sub:[
+     {
+       title:"3rd sem",
+       books:[{link:"https://drive.google.com/drive/folders/1-gx1LYRGBRCzUMI55_wqe8RQvSkT-JoN?usp=sharing",name:"All books and notes for 3rd Sem"},
+      ]
+     },
+     {
+       title:"4th sem",
+       books:[{link:"https://drive.google.com/drive/folders/14aekIfhTSTskGn_z1qBx3nvBD5JGJBcl?usp=sharing",name:"All books and notes for 4th Sem"},
+      ]
+     },
+     {
+       title:"5th sem",
+       books:[{link:"https://drive.google.com/drive/folders/156uw8hIZXvTxXZzqi-wfbyP1ZIh-KbAw?usp=sharing",name:"All books and notes for 5th Sem"},
+      ]
+     },
+     
+    ]
+  }
+  
+  
 ]
