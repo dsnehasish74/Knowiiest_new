@@ -22,6 +22,7 @@ import logo21 from "../images/hostel14.jpg"
 import logo22 from "../images/hostel7.png"
 import logo23 from "../images/Downinghall.jpg"
 import logo24 from "../images/hostel13.jpg"
+import logo25 from "../images/hostel16.png"
 
 export const buildings=[
   {
@@ -175,21 +176,29 @@ export const buildings=[
     body:"This is a Boys hostel. The facilities available are: 1. Free Unlimited WiFi access available, 2. T.V is there in the common room, 3. Suffiecient Bathrooms in each & every floor, 4. Water purifier is there for drinking water, 5. Dust Bin in each & every floor, 6.Badminton Court in the Front Yard, 7. Beautiful Garden in the Front Yard, 8. Indoor games are available (carrom). People here has Good experience and the Food is really good.",
     alt:"hostel15"
   },
-    {
+  {
     id:21,
+    src:logo25,
+    heading:"Hostel 16",
+    body:"It is 3rd year boys hostel which is next to the Hostel 15 and opposite to Sengupta Hall .This is a 4 storey building having staff rooms and a common room for TT and TV in the ground floor .Each floor has eleven 4-seated rooms and one 5-seated room .Good quality food is served here and wi-fi access , washing machine are available . There is a  badminton court in front of mess and a volleyball court behind the mess. . There is also a nice garden in front of the hostel .",
+    alt:"hostel16"
+
+  },
+    {
+    id:22,
     src:logo16,
     heading:"Lt Williams Halls of Residence",
     body:"Lt Williams Halls of Residence is a ladies hostel for PG and Research Scholars. It's beautifull place to stay with awesome food, 24 hours security and all necessary facilities.  The rooms accomodate maximum 2 and cleaning is done everyday. Foods are avilable even on vacation like Durga Pooja, Summer vacation. Beautiful view of the River Ganga from the Hostel and cool breeze comes in. ", alt:"LtWilliams"
   },
 {
-    id:22,
+    id:23,
     src:logo17,
     heading:"Sister Nivedita Ladies Hostel" ,
     body:"First year girls hostel for the students of IIEST, SHIBPUR. The hostel with 3 floors has newly renovated interior.The atmosphere is amazing. The rooms are occupied by four girls.Each floor have almost 12 rooms and 2 washrooms and also a common room. There is a mess and a common room in ground floor. 24 hours security guard is available.",
     alt:"Nivedita"
   },
   {
-    id:23,
+    id:24,
     src:logo18,
     heading:"Pandya Hall (Girls Hostel)"  ,
     body:"Hostel of 2nd, 3rd, 4th year undergraduate girls and also some post graduate students live here. The hostel is more close from gate no 1 than gate no 2.The hall organises sports event every year. The place is surrounded by institute hospital,guest house,boxing ring, basketball court. It is in front of clock tower and vidisha lake. The food offered here is awesome. ",
