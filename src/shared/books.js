@@ -118,10 +118,36 @@ id:3,
 course:"ETC",
 sub:[
   {
-    title:"ETC(all)",
-    books:[{link:"https://drive.google.com/folderview?id=0B645DAi5zHJNQzRteVpWNzdZLWM",name:"Entire set of materials for etc,2nd to 4th year"},
+    title:"3rd sem",
+    books:[{link:"https://drive.google.com/drive/folders/0B645DAi5zHJNcUl6T29HMjVCUGM?usp=sharing",name:"All books and notes for 3rd Sem"},
   ]
   },
+  {
+    title:"4th sem",
+    books:[{link:"https://drive.google.com/drive/folders/0B645DAi5zHJNNTZSVVJKOWhjakE?usp=sharing",name:"All books and notes for 4th Sem"},
+  ]
+  },
+  {
+    title:"5th sem",
+    books:[{link:"https://drive.google.com/drive/folders/1KuJqhFE2oQn0VFj07JR76j91yP0ogR2Q?usp=sharing",name:"All books and notes for 5th Sem"},
+  ]
+  },
+  {
+    title:"6th sem",
+    books:[{link:"https://drive.google.com/drive/folders/1EiOv5H2zmxIoAzv9LfDwi59drWNavyjM?usp=sharing",name:"All books and notes for 6th Sem"},
+  ]
+  },
+  {
+    title:"7th sem",
+    books:[{link:"https://drive.google.com/drive/folders/1Io9-2AxhaMxae9RSHZ4vJE1n_2W0IheE?usp=sharing",name:"All books and notes for 7th Sem"},
+  ]
+  },
+  {
+    title:"8th sem",
+    books:[{link:"https://drive.google.com/drive/folders/1bhXrrYw0Wp6JEVHtjVqY97NJBRVgPnyj?usp=sharing",name:"All books and notes for 8th Sem"},
+  ]
+  },
+  
 ]
 },
 ]
