@@ -13,6 +13,7 @@ import anuranon from '../images/anuranon.jpg'
 import sphuran from '../images/sphuran.jpg'
 import esummit from '../images/e-summit.jfif'
 import Satrang from '../images/Satrang.jpg'
+import kriti from '../images/kriti.jpg'
 
 export const fests=[
 
@@ -121,5 +122,12 @@ id:3,
   heading:"SATRANG" ,
   body:" To bring together the creative societies of IIEST Shibpur, to conduct a single fest on a much larger scale where everyone gets a platform to showcase their talent the seven of the Cultural Clubs of IIEST Shibpur presents SATRANG - a week long cultural extravaganza.SATRANG  comprises of a multitude of competitions, workshops, exhibitions and events on various art forms such as dance, drama, debating, literary expression to drawing, sketching , painting, photography and videography.SATRANG-2020 was the first edition of this fest .",
   alt:"SATRANG"
- }
+ },
+  {
+  id:15,
+  src:kriti,
+  heading:"KRITI",
+  body:"SCAGE and REFLEXO BETA organize its annual art and  cultural fest every year named KRITI . Workshops like SAND ART WORKSHOP, MAGIC WORKSHOP, DANCE WORKSHOP are  organised . KRITI enjoys an average footfall of 3000 people belonging to all age groups .  Pioneers in the field of art, creativity and environment  are invited to inspire students who are passionate about art and culture . ",
+  alt:"KRITI"
+}
 ]
