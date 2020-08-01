@@ -3,7 +3,7 @@ import MediaPresent1 from '../component/mediapresent1.js'
 import ReverseMedia1 from '../component/reversemedia1.js'
 import TouristIntro from '../intro/touristintro.js'
 import Pagenav from './pagenav.js'
-import logo2 from "../images/IMG_20200303_163715.jpg"
+import logo2 from "../images/sports.jpg"
 import logo4 from "../images/lesthes.jpg"
 import logo3 from "../images/cathersis.jpeg"
 import logo5 from "../images/euphony.jpg"
