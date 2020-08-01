@@ -23,9 +23,8 @@ function Books(){
         <button onClick={() => setCount(5)}  disabled={true}>ME</button>
         <button onClick={() => setCount(6)}  disabled={true}>Civil </button>
         <button onClick={() => setCount(7)}  disabled={true}>IT </button>
-        <button onClick={() => setCount(8)} disabled={true}>ETC</button>
-        <button onClick={() => setCount(9)}  disabled={true}>Mining</button>
-        <button onClick={() => setCount(10)}  disabled={true}> Metallurgy</button>
+        <button onClick={() => setCount(8)}  disabled={true}>Mining</button>
+        <button onClick={() => setCount(9)}  disabled={true}> Metallurgy</button>
       </div>
       <div className="booksslide">
         <div>
