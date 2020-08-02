@@ -17,6 +17,7 @@ function Footer(){
           <div className="col-6 col-md-4">
             <ul>
               <li>Photo Credit Soumyadeep Biswas</li>
+              <li>Special thanks to Soumya Debnath for his support<li>
             </ul>
           </div>
           <div className="col-12 col-md-4 social">
