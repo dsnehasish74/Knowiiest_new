@@ -8,7 +8,7 @@ function Home(){
     <div className="fade">
       <div className="intro">
         <div className="intro-text">
-          <h2>All you need to know about IIESTS|Know IIESTS</h2>
+          <h2>All you need to know about IIESTS|Know-IIESTS</h2>
           <p>Since it's establishment in 1856, the Indian Institute of Engineering Science and Technology, Shibpur (IIEST Shibpur) erstwhile BE College/ BESU  is a premier institute being the second oldest engineering college of India which has significantly contributed to the development of this nation. The college has a rich culture of heritage with foundations
              of historical importance and a green lush campus where one can find moments of serenity.
           </p>
