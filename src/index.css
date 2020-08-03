@@ -326,6 +326,9 @@ box-shadow: 5px 5px 15px -5px rgba(0 ,0,0,0.5);
   .type-body{
     overflow-x: scroll;
   }
+  .intro{
+  min-height:650px;
+  }
 }
 .blog{
   width: 100%;
