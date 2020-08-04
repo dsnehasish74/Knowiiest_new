@@ -38,8 +38,8 @@ function Home(){
         <div className="row">
             <div className="col-12 col-md-6">
                <div className="download">
-                  <h3>Download Our App for Better <span className="heilight"> Experience</span></h3>
-                  <h4>Coming Soon.........</h4>
+                  <h3><span className="heighlites">Download</span> our app for ownloading books and having a look at placement stats and fee structure etc</h3>
+                  <h4><a href="https://www.amazon.com/dp/B08F79FB23/ref=apps_sf_sta" target="blank" className="btn btn-success"><i className="fab fa-google-play"></i>Download</a></h4>
                </div>
             </div>
             <div className="col-12 col-md-6 svgcon">
