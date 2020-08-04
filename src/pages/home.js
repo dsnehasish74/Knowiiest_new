@@ -41,7 +41,7 @@ function Home(){
                   <h3><span className="heilight">Download</span> our app for downloading books and having a look at placement stats and fee structure etc</h3>
                   <h4><a href="https://www.amazon.com/dp/B08F79FB23/ref=apps_sf_sta" target="blank" className="btn btn-success"><i className="fab fa-google-play"></i>Download from store</a></h4>
                   <h4>or</h4>
-                  <h3><a href="https://drive.google.com/uc?export=download&id=1veNjySa2amIMitrauJGHmi9NQiztlWNE" target="blank">Download directly from here</a></h3>
+                  <h5><a href="https://drive.google.com/uc?export=download&id=1veNjySa2amIMitrauJGHmi9NQiztlWNE" target="blank">Download directly from here</a></h5>
                </div>
             </div>
             <div className="col-12 col-md-6 svgcon">
