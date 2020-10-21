@@ -2,19 +2,20 @@ import React from 'react'
 import MediaPresent from '../component/mediapresent.js'
 import ReverseMedia from '../component/reversemedia.js'
 import TouristIntro from '../intro/touristintro.js'
-import Pagenav from './pagenav.js'
 import {Link} from 'react-router-dom'
 import {touristsdetails} from '../shared/tourists.js'
+import Toursvg from '../svg/tour.svg';
+import Fade from 'react-reveal/Fade';
 function Tourist(){
   return(
     <div>
-    <TouristIntro intro="Tourist spots near IIEST"/>
-  <Pagenav/>
+    <TouristIntro intro="Tourist spots near IIEST" svg={Toursvg}/>
     <div className="container fade">
     <div className="alert alert-primary d-block d-sm-none" role="alert">
   click on the pictures to see details
 </div>
     <br/>
+    <Fade buttom>
     {
       touristsdetails.map(route=>{
         if(route.id%2===0)
@@ -44,6 +45,7 @@ function Tourist(){
         );
       })
     }
+    </Fade>
     </div>
     </div>
 

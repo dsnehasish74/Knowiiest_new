@@ -1,12 +1,11 @@
 import React from 'react'
-import Pagenav from './pagenav.js'
 import TouristIntro from '../intro/touristintro.js'
+import Gradesvg from '../svg/grade.svg';
 
 function Grade(){
  return(
    <div>
-   <TouristIntro intro="Grading System of IIESTS"/>
-   <Pagenav/>
+   <TouristIntro intro="Grading System of IIESTS" svg={Gradesvg}/>
    <div className="container fade">
    <h3 className="heading-text3"> Grading System </h3>
    <hr/>

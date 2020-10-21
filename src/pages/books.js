@@ -1,15 +1,14 @@
 import React,{useState} from 'react'
 import TouristIntro from '../intro/touristintro.js'
-import Pagenav from './pagenav.js'
 import {books} from '../shared/books.js'
+import Booksvg from '../svg/books.svg';
 
 function Books(){
   const [count, setCount] = useState(0);
   let course_book=books[count];
   return(
     <div>
-      <TouristIntro intro="Important Books for semester exam"/>
-    <Pagenav/>
+      <TouristIntro intro="Important Books for semester exam" svg={Booksvg}/>
       <div className="container fade">
       <div className="alert alert-primary" role="alert">
         books of respective semesters will be uploaded soon..

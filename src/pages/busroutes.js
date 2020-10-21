@@ -2,18 +2,19 @@ import React from 'react'
 import MediaPresent from '../component/mediapresent.js'
 import ReverseMedia from '../component/reversemedia.js'
 import TouristIntro from '../intro/touristintro.js'
-import Pagenav from './pagenav.js'
 import {Link} from 'react-router-dom'
 import {busroutes} from '../shared/busroutes.js'
+import Bussvg from '../svg/bus.svg';
+import Fade from 'react-reveal/Fade';
 
 function BusRoutes(){
   return(
-    <div>  <TouristIntro intro="Details of BusRoutes to IIESTS"/>
-    <Pagenav/>
+    <div>  <TouristIntro intro="Details of BusRoutes to IIESTS" svg={Bussvg}/>
   	<div className="container fade">
     <div className="alert alert-primary d-block d-sm-none" role="alert">
   click on the pictures to see details
 </div>
+<Fade bottom>
     <h3 className="heading-text2">Bus routes to important places</h3>
     <hr/>
     <div>
@@ -57,6 +58,7 @@ function BusRoutes(){
             );
           })
         }
+        </Fade>
     </div>
     </div>
   );

@@ -2,7 +2,6 @@ import React from 'react'
 import MediaPresent1 from '../component/mediapresent1.js'
 import ReverseMedia1 from '../component/reversemedia1.js'
 import TouristIntro from '../intro/touristintro.js'
-import Pagenav from './pagenav.js'
 import logo2 from "../images/sports.jpg"
 import logo4 from "../images/lesthes.jpg"
 import logo3 from "../images/cathersis.jpeg"
@@ -17,12 +16,14 @@ import logo12 from "../images/reflexo.jpg"
 import logo13 from "../images/edc.jpg"
 import logo14 from "../images/cmbuff.jpg"
 import logo15 from "../images/aeromod.jpg"
+import Clubsvg from '../svg/club.svg';
+import Fade from 'react-reveal/Fade';
 function Clubs(){
   return(
     <div>
-      <TouristIntro intro="Societies of IIEST"/>
-    <Pagenav/>
-    <div className="container fade">
+      <TouristIntro intro="Societies of IIEST" svg={Clubsvg}/>
+    <div className="container">
+    <Fade bottom>
     <MediaPresent1 src={logo10}
     heading="Robodarshan - the Robotics Society" body="ROBODARSHAN, the Robotics Society of IIEST Shibpur,
      is one of the most active student societies helping in inculcating among students the scientific temper &
@@ -154,6 +155,7 @@ function Clubs(){
     link="Facebook page link" add="https://www.facebook.com/aeromodellingiiests/"
     alt="aeromodelling logo"
     />
+    </Fade>
     <hr/>
     </div>
     </div>

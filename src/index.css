@@ -6,6 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
+  transition: all 0.2s;
 }
 html{
   overflow-x: hidden;
@@ -38,34 +39,6 @@ code {
 /******************end footer**************************************/
 
 
-nav{
-  height: 60px;
-  width: 100%;
-  background-color: #ffffff ;
-  border-top: 5px solid;
-  border-image-slice: 1;
- border-image-source: linear-gradient(to left, #97c74e, #2ab9a5);
-}
-.div-header{
-  height: 100%;
-  margin:0;
-  display: flex;
-  flex-direction: row;
-  justify-content:space-between;
-  align-items: center;
-  padding: 0px;
-}
-.navLink{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-.logo,.link{
-  padding:0px;
-}
-.main-nav{
-  margin:0 10% ;
-}
 .mediaimage{
   width: 200px;
   height: 200px;
@@ -164,27 +137,7 @@ nav{
 }
 /*****************************home page**********************************/
 
-.intro{
-  background: black url('./images/IMG_20200204_171241.jpg');
-  background-size: cover;
-  background-position: center;
-  min-height: 600px;
-  z-index: -100;
-  position: relative;
 
-}
-
-.intro-text{
-  color: white;
-  position: absolute;
-  top: 200px;
-  left: 10%;
-  max-width: 600px;
-  transform: translateX(-200px);
-  animation: 1.2s slideIn ease-in-out forwards 1s;
-  z-index: 10;
-  opacity: 0;
-}
 
 @keyframes slideIn {
   100% {
@@ -193,7 +146,7 @@ nav{
   }
 }
 
-.homenav{
+/* .homenav{
 margin-top: -50px;
 z-index: 100;
 box-shadow: 5px 5px 15px -5px rgba(0 ,0,0,0.5);
@@ -217,7 +170,7 @@ box-shadow: 5px 5px 15px -5px rgba(0 ,0,0,0.5);
   margin: 10% 0;
   transform: translateX(-200px);
   animation: 1.2s slideIn ease-in-out forwards 1s;
-}
+} */
 .slideshow{
   width: 100%;
   height: 500px;
@@ -389,10 +342,10 @@ box-shadow: 5px 5px 15px -5px rgba(0 ,0,0,0.5);
   left: 50%;
 }
 .cont{
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 40px;
   background-image: linear-gradient(to right, #1876f2, #2ab9a5 );
-  border-radius: 100%;
+  border-radius: 5px;
   box-shadow: 5px 5px 15px -5px rgba(0 ,0,0,0.5);
   position: relative;
 }
@@ -431,23 +384,6 @@ box-shadow: 5px 5px 15px -5px rgba(0 ,0,0,0.5);
 }
 
 /*****************/
-.nav_pos{
-  position: fixed;
-  top: 0;
-  z-index: 1000;
-  box-shadow: 5px 5px 15px -5px rgba(0 ,0,0,0.5);
-}
-.link{
-  color: #1BA94C;
-}
-.link:hover{
-  color: #1876f2;
-  background-color: #f7f7f7;
-  text-decoration: none;
-}
-.link:focus{
-  color: red;
-}
 @media (max-width:1000px){
   .homenav{
     overflow-x: scroll;

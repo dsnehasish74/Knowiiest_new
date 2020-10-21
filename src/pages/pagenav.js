@@ -1,9 +1,11 @@
-import React from 'react';
+import React,{useState} from 'react';
+import '../css/pagenav.css'
 import {Link} from 'react-router-dom';
 function Pagenav(props){
+  const [open, setOpen] = useState(false);
   return (
-    <nav className="container homenav">
-      <ul className="div-header ullink">
+    <nav className="second_nav_2">
+      <ul className={`container second_nav ${open ? "" : "hidden"}`} onClick={()=>setOpen(!open)}>
         <li><Link className="link" to="/buildings">Buildings</Link></li>
         <li><Link className="link" to="/clubs">Clubs</Link></li>
         <li><Link className="link" to="/canteen">Canteens</Link></li>
@@ -14,6 +16,11 @@ function Pagenav(props){
         <li><Link className="link" to="/books">Books</Link></li>
         <li><Link className="link" to="/grade">Grading System</Link></li>
       </ul>
+      <div className={`hamberger ${open ? "hidden" : ""}`} onClick={()=>setOpen(!open)}> 
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
     </nav>
   );
 }
