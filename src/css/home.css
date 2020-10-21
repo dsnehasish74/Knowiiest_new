@@ -64,7 +64,4 @@
     .hero{
         flex-direction: column-reverse;
       }
-    .hero_img{
-        background-color: black;
-    }
 }
