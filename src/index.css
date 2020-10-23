@@ -69,7 +69,8 @@ code {
   position: relative;
   transition: .5s ease;
   backface-visibility: hidden;
-  background-color: blue;
+  background-color: black;
+  margin: 10px;
 }
 .middle {
   transition: .5s ease;
