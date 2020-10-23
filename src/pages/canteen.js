@@ -9,7 +9,7 @@ import Fade from 'react-reveal/Fade';
 function Canteen(){
   return(
     <div>
-    <TouristIntro intro="Details of Canteen..." svg={Canteensvg}/>
+    <TouristIntro intro="Details of Canteen" svg={Canteensvg}/>
     <div className="container fade">
     <div className="alert alert-primary d-block d-sm-none" role="alert">
   click on the pictures to see details

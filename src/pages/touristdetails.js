@@ -7,7 +7,6 @@ function TouristDetails(props){
     <div>
     {
       <div className="row details">
-
           <img src={route.src} alt={route.alt} className="detail-image col-12 col-md-6"></img>
           <div className="col-12 col-md-6">
           <div aria-label="breadcrumb">

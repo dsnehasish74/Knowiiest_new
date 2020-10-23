@@ -11,7 +11,7 @@ import Fade from 'react-reveal/Fade';
 function Fest(){
   return(
     <div>
-      <TouristIntro intro="Details of Fests..." svg={Festsvg}/>
+      <TouristIntro intro="Details of Fests" svg={Festsvg}/>
     <div className="container fade">
     <div className="alert alert-primary d-block d-sm-none" role="alert">
   click on the pictures to see details

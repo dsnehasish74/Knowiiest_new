@@ -10,7 +10,7 @@ import Fade from 'react-reveal/Fade';
 
 function Buildings(){
   return(
-    <div>  <TouristIntro intro="Buildings of IIESTS..." svg={Hostelsvg}/>
+    <div>  <TouristIntro intro="Buildings of IIESTS" svg={Hostelsvg}/>
     <div className="container">
     <div className="alert alert-primary d-block d-sm-none" role="alert">
   click on the pictures to see details
