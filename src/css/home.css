@@ -82,12 +82,13 @@
   box-shadow: 5px 5px 15px -5px rgba(0 ,0,0,0.5);
   border-radius: 5px;
   transition: all 0.2s;
+  margin: 20px 0px;
 }
 .feature_card_img{
   width: 100%;
   transition: all 0.2s;
   object-fit: cover;
-  background-position: bottom;
+  
 }
 .overlay{
   position: absolute;
