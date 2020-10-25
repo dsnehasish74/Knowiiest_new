@@ -34,7 +34,7 @@ function Home(){
       <div className="feature_card_text">
       <h3>Books For Semester Exam</h3>
       <p>
-        You can find a lot of books related to Semester Exams here
+        Here are the books and class notes that will help you in your semesters...
       </p>
       <Link to="/books" className="explore_link">explore here</Link>
     </div>
@@ -52,7 +52,7 @@ function Home(){
     <div className="feature_card_text">
       <h3>Blogs on Campus Life</h3>
       <p>
-        You can find a lot of books related to Semester Exams here
+        Have you ever realised that campus life is awesome!!!! Share your experiences with us here...
       </p>
       <a href="https://yournewabode.blogspot.com/" className="explore_link">explore here</a>
     </div>
@@ -70,7 +70,7 @@ function Home(){
     <div className="feature_card_text">
       <h3>Explore other Projects made by IIEST students</h3>
       <p>
-        You can find a lot of books related to Semester Exams here
+        IIEST is full of talents- from students who have been hacking since eleven to people who can make an entire food-delivery app within a day. Here is a glimpse of some interesting projects created by the students of IIEST Shibpur...
       </p>
       <Link to="/" className="explore_link">explore here</Link>
     </div>
