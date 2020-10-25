@@ -28,14 +28,14 @@ function Home() {
               <div class="overlay">
                 <div class="text">
                   <h4>Explore this Feature</h4>
-                  <p>Since it's establishment in 1856, the Indian Institute of Engineering Science and Technology, Shibpur (IIEST Shibpur) erstwhile BE College</p>
+                  <p>Here are the books and class notes that will help you in your semesters...</p>
                 </div>
               </div>
             </div>
             <div className="feature_card_text">
               <h3>Books For Semester Exam</h3>
               <p>
-                You can find a lot of books related to Semester Exams here You can find a lot of books related to Semester Exams here You can find a lot of books related to Semester Exams here
+              Here are the books and class notes that will help you in your semesters...
       </p>
               <Link to="/books" className="explore_link">explore here</Link>
             </div>
@@ -46,14 +46,14 @@ function Home() {
               <div class="overlay">
                 <div class="text">
                   <h4>Explore this Feature</h4>
-                  <p>Since it's establishment in 1856, the Indian Institute of Engineering Science and Technology, Shibpur (IIEST Shibpur) erstwhile BE College</p>
+                  <p>Have you ever realised that campus life is awesome!!!! Share your experiences with us here...</p>
                 </div>
               </div>
             </div>
             <div className="feature_card_text">
               <h3>Blogs on Campus Life</h3>
               <p>
-                You can find a lot of books related to Semester Exams here You can find a lot of books related to Semester Exams hereYou can find a lot of books related to Semester Exams here
+              Have you ever realised that campus life is awesome!!!! Share your experiences with us here...
       </p>
               <a href="https://yournewabode.blogspot.com/" className="explore_link">explore here</a>
             </div>
@@ -64,14 +64,14 @@ function Home() {
               <div class="overlay">
                 <div class="text">
                   <h4>Explore this Feature</h4>
-                  <p>Since it's establishment in 1856, the Indian Institute of Engineering Science and Technology, Shibpur (IIEST Shibpur) erstwhile BE College</p>
+                  <p>IIEST is full of talents- from students who have been hacking since eleven to people who can make an entire food-delivery app within a day. Here is a glimpse of some interesting projects created by the students of IIEST Shibpur...</p>
                 </div>
               </div>
             </div>
             <div className="feature_card_text">
               <h3>Our Galery</h3>
               <p>
-                You can find a lot of books related to Semester Exams here You can find a lot of books related to Semester Exams here You can find a lot of books related to Semester Exams here
+              IIEST is full of talents- from students who have been hacking since eleven to people who can make an entire food-delivery app within a day. Here is a glimpse of some interesting projects created by the students of IIEST Shibpur...
       </p>
               <Link to="/" className="explore_link">explore here</Link>
             </div>
