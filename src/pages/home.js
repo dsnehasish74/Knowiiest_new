@@ -84,7 +84,7 @@ function Home() {
             <button className="btn btn-outline-secondary btn-lg"><a className="link_download" href="https://drive.google.com/uc?export=download&id=1veNjySa2amIMitrauJGHmi9NQiztlWNE" target="blank">Download apk file</a></button>
           </div>
           <div className="app_photo">
-              <img src={logo4}></img>
+              <img src={logo4} alt="app"></img>
           </div>
       </div>
     </div>
