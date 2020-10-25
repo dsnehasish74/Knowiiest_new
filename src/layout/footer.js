@@ -8,10 +8,10 @@ function Footer(){
         <div className="row">
           <div className="col-6 col-md-4">
             <ul>
-              <li><Link to="/">Home</Link></li>
-              <li><Link to="/about">About us</Link></li>
-              <li><a href="https://yournewabode.blogspot.com/" target="blank">Blog</a></li>
-              <li><a href="https://www.collegepravesh.com/cutoff/iiest-shibpur-cutoff-2019/" target="blank">Check cutoff for IIESTS here</a></li>
+              <li><Link className="footer_link" to="/">Home</Link></li>
+              <li><Link className="footer_link" to="/about">About us</Link></li>
+              <li><a  className="footer_link" href="https://yournewabode.blogspot.com/" target="blank">Blog</a></li>
+              <li><a className="footer_link" href="https://www.collegepravesh.com/cutoff/iiest-shibpur-cutoff-2019/" target="blank">Check cutoff for IIESTS here</a></li>
             </ul>
           </div>
           <div className="col-6 col-md-4">

@@ -116,7 +116,14 @@
   margin:10px;
 }
 .feature_card_text h3{
+  font-weight: 400;
   color:#36B37E;
+}
+.feature_card_text p{
+  color: #253858;
+  font-weight: 300;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
 }
 .feature_card:hover{
   box-shadow: 15px 15px 30px -5px rgba(0 ,0,0,0.5);
@@ -133,4 +140,57 @@
   color:green;
   float: right;
   margin-bottom: 10px;
+}
+.explore_link:hover{
+  color:lightgreen;
+  text-decoration: none;
+}
+
+.appdownload{
+  display: flex;
+  flex-direction: row;
+}
+
+.app_photo{
+  width: 50%;
+  height: auto;
+  object-fit: contain;
+  overflow: hidden;
+}
+.app_photo img{
+  width: 100%;
+  object-fit: contain;
+}
+
+.app_download_text{
+  background-color: #EBECF0;
+  flex: 1;
+  text-align: center;
+}
+
+.app_download_text{
+  padding: 100px 0px;
+}
+
+.app_download_text h3 {
+  padding-bottom: 40px;
+  color: #172B4D;
+}
+.link_download{
+  color: black;
+}
+.link_download:hover{
+  color: white;
+  text-decoration: none;
+}
+@media (max-width:900px){
+  .appdownload{
+    flex-direction: column-reverse;
+  }
+  .app_photo{
+    width: 100%;
+  }
+  .app_download_text{
+    padding: 50px 0px;
+  }
 }
