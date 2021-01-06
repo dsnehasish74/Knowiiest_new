@@ -12,7 +12,6 @@ function Navigation(props){
         <div className="logo"><Link to="/"><img src={logo} alt="Know IIESTS Logo" className="brandlogo"></img></Link></div>
         <div className="mid"></div>
         <Link className="about_link" to="/about">About us</Link>
-        <a className="about_link" href="https://knowmyblog.herokuapp.com/">Review</a>
       </div>
     </nav>
     <Pagenav/>
