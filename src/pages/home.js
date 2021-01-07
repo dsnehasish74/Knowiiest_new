@@ -69,7 +69,7 @@ function Home() {
               </div>
             </div>
             <div className="feature_card_text">
-              <h3>Feednack / Chats</h3>
+              <h3>Feedback / Chats</h3>
               <p>
              Give your Feedback and Valuable comments here . Give it a try .
       </p>
@@ -80,7 +80,7 @@ function Home() {
       </div>
       <div className="appdownload container">
           <div className="app_download_text">
-            <h3>Dowload our App for better experience</h3>
+            <h3>Download our App for better experience</h3>
             <button className="btn btn-outline-secondary btn-lg"><a className="link_download" href="https://drive.google.com/uc?export=download&id=1veNjySa2amIMitrauJGHmi9NQiztlWNE" target="blank">Download apk file</a></button>
           </div>
           <div className="app_photo">
