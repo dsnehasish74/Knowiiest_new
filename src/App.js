@@ -18,7 +18,8 @@ import Buildingdetails from './pages/buildingdetails.js'
 import TouristDetails from './pages/touristdetails.js'
 import Festsdetail from './pages/festdetail.js'
 import Canteendetails from './pages/canteendetail.js'
-
+import Leisuredetails from './pages/leisuredetails.js'
+import leisure from './pages/leisures.js'
 class App extends Component {
   render(){
   return (
@@ -34,6 +35,7 @@ class App extends Component {
         <Route  exact path="/busroutes" component={BusRoutes}/>
         <Route  path="/grade" component={Grade}/>
         <Route  path="/clubs" component={Clubs}/>
+        <Route  exact path="/leisure" component={leisure}/>
         <Route  exact path="/tourist" component={Tourist}/>
         <Route  exact path="/fest" component={Fest}/>
         <Route path="/busroutes/:id" component={Details}/>
@@ -41,6 +43,7 @@ class App extends Component {
         <Route path="/tourist/:id" component={TouristDetails}/>
         <Route path="/fest/:id" component={Festsdetail}/>
         <Route path="/canteen/:id" component={Canteendetails}/>
+        <Route path="/leisure/:id" component={Leisuredetails}/>
         <Redirect to="/"/>
       </Switch>
       <Footer/>
