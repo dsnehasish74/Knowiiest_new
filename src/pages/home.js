@@ -55,7 +55,7 @@ function Home() {
               <p>
               Have you ever realised that campus life is awesome!!!! Share your experiences with us here...
       </p>
-              <a href="https://yournewabode.blogspot.com/" className="explore_link">explore here</a>
+              <a href="https://knowiiestblog.herokuapp.com/" className="explore_link">explore here</a>
             </div>
           </div>
           <div className="feature_card">
@@ -64,23 +64,23 @@ function Home() {
               <div class="overlay">
                 <div class="text">
                   <h4>Explore this Feature</h4>
-                  <p>IIEST is full of talents- from students who have been hacking since eleven to people who can make an entire food-delivery app within a day. Here is a glimpse of some interesting projects created by the students of IIEST Shibpur...</p>
+                  <p> Give your Feedback and Valuable comments here . Give it a try .</p>
                 </div>
               </div>
             </div>
             <div className="feature_card_text">
-              <h3>Our Galery</h3>
+              <h3>Feedback / Chats</h3>
               <p>
-              IIEST is full of talents- from students who have been hacking since eleven to people who can make an entire food-delivery app within a day. Here is a glimpse of some interesting projects created by the students of IIEST Shibpur...
+             Give your Feedback and Valuable comments here . Give it a try .
       </p>
-              <Link to="/" className="explore_link">explore here</Link>
+              <a href="https://knowmyblog.herokuapp.com/" className="explore_link">explore here</a>
             </div>
           </div>
         </div>
       </div>
       <div className="appdownload container">
           <div className="app_download_text">
-            <h3>Dowload our App for better experience</h3>
+            <h3>Download our App for better experience</h3>
             <button className="btn btn-outline-secondary btn-lg"><a className="link_download" href="https://drive.google.com/uc?export=download&id=1veNjySa2amIMitrauJGHmi9NQiztlWNE" target="blank">Download apk file</a></button>
           </div>
           <div className="app_photo">

@@ -10,7 +10,7 @@ function Footer(){
             <ul>
               <li><Link className="footer_link" to="/">Home</Link></li>
               <li><Link className="footer_link" to="/about">About us</Link></li>
-              <li><a  className="footer_link" href="https://yournewabode.blogspot.com/" target="blank">Blog</a></li>
+              <li><a  className="footer_link" href="https://knowiiestblog.herokuapp.com/" target="blank">Blog</a></li>
               <li><a className="footer_link" href="https://www.collegepravesh.com/cutoff/iiest-shibpur-cutoff-2019/" target="blank">Check cutoff for IIESTS here</a></li>
             </ul>
           </div>
