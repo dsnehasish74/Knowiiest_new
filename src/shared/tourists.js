@@ -37,7 +37,7 @@ export const touristsdetails=[
   {
     id:4,
     src:logo5,
-    heading:"Alipoor Zoo" ,
+    heading:"Alipoor Zoological Garden" ,
     body:"The Zoological Garden, Alipore (also informally called the Alipore Zoo or Calcutta Zoo) is India's oldest formally stated zoological park (as opposed to royal and British menageries) and a big tourist attraction in Kolkata, West Bengal. It has been open as a zoo since 1876, and covers 18.811 ha (46.48 acres). It is probably best known as the home of the now expired Aldabra giant tortoise Adwaita, who was reputed to have been over 250 years old when he died in 2006. It is also home to one of the few captive breeding projects involving the Manipur brow-antlered deer. One of the most popular tourist attractions in Kolkata,it draws huge crowds during the winter season, especially during December and January.",
     alt:"zoo picture"
   },

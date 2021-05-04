@@ -14,7 +14,7 @@ export const busroutes=[
     id:1,
     heading:'Rabindra Sadan Metro (Exide more)',
     body:'Most popularly known as exide more, this place is the major point to go to several locations like Nandan,Indian Museum, etc. This is the nearest (as of 2020) metro station from IIEST at a distance of 8 km. Take any of the buses - Barasat-B.Garden,Sealdah-B.Garden, 213/1 or Dhamakhali-B.Garden. The journey takes about 25 minutes at low traffic but during peak hours, it may extend upto an hour.',
-    alt:'Howrah station',
+    alt:'Rabindra Sadan Metro',
     src:logo2
   },
   {
@@ -26,9 +26,9 @@ export const busroutes=[
   },
   {
     id:3,
-    heading:'Netaji Subhas Chanda Bose Terminus, Dum Dum',
+    heading:'Netaji Subhas Chanda Bose Terminus (Airport)',
     body:'NSCB is the only airport in Kolkata at a distance of 28km from IIEST. There are many ways to reach the airport. First, take any bus to Rabindra Sadan metro, take a metro to Dum Dum metro station and the any airport bound bus (like 30D, Rajchandrapur - Korunamoyee). Secondly, take any bus to Sealdah. Take any main-line train (Krishnanagar local, Naihati Local,Barrackpore local, etc) to Dum Dum Junction and then any airport bound bus to Airport gate - 1.',
-    alt:'Howrah station',
+    alt:'NSCB Airport',
     src:logo4
   }
 ]

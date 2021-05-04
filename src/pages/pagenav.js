@@ -15,6 +15,7 @@ function Pagenav(props){
         <li><Link className="link"  to="/tourist">Tourist Attractions near IIEST</Link></li>
         <li><Link className="link" to="/books">Books</Link></li>
         <li><Link className="link" to="/grade">Grading System</Link></li>
+        <li><Link className="link" to="/leisure">Sports and Leisure</Link></li>
       </ul>
       <div className={`hamberger ${open ? "hidden" : ""}`} onClick={()=>setOpen(!open)}> 
         <div></div>

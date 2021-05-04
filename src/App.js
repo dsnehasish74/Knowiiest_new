@@ -20,12 +20,13 @@ import Festsdetail from './pages/festdetail.js'
 import Canteendetails from './pages/canteendetail.js'
 import Leisuredetails from './pages/leisuredetails.js'
 import leisure from './pages/leisures.js'
+import ChatAssistant from './pages/chatassitant.js'
 class App extends Component {
   render(){
   return (
     <BrowserRouter>
     <div className="App">
-       <Navigation/>
+      <Navigation/>
       <Switch>
         <Route exact path="/" component={Home}/>
         <Route  path="/about" component={About}/>
@@ -47,8 +48,9 @@ class App extends Component {
         <Redirect to="/"/>
       </Switch>
       <Footer/>
-      <Blogicon/>
     </div>
+    <ChatAssistant/>
+    <Blogicon/>
     </BrowserRouter>
   );
 }
