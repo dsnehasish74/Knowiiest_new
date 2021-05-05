@@ -54,8 +54,8 @@ class ChatAssistant extends Component {
                   }
               },
               { 
-                  value: "Grading and Marking",
-                  label: "Grading",
+                  value: "Books,Grading and Marking",
+                  label: "Books and Grading",
                   trigger:(value)=>{
                      queryarea="grading";
                      return 'type';
